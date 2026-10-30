@@ -1,0 +1,86 @@
+{
+ "balana": {
+  "model_mismatch": 0,
+  "discrepancies_per_seed": {}
+ },
+ "openaz": {
+  "model_mismatch": 0,
+  "discrepancies_per_seed": {
+   "0": {
+    "AllOf:I": 1,
+    "AllOf:IM": 1,
+    "AllOf:MI": 1,
+    "AnyOf:I": 1,
+    "AnyOf:INM": 1,
+    "AnyOf:NMI": 1,
+    "Target:I": 1,
+    "Target:IM": 1,
+    "Target:MI": 1,
+    "Target:INM": 4,
+    "Target:IMNM": 4,
+    "Target:INMM": 4,
+    "Target:MINM": 4
+   },
+   "1": {
+    "AllOf:I": 1,
+    "AllOf:IM": 1,
+    "AllOf:MI": 1,
+    "AnyOf:I": 1,
+    "AnyOf:INM": 1,
+    "AnyOf:NMI": 1,
+    "Target:I": 1,
+    "Target:IM": 1,
+    "Target:MI": 1,
+    "Target:INM": 4,
+    "Target:IMNM": 4,
+    "Target:INMM": 4,
+    "Target:MINM": 4
+   },
+   "2": {
+    "AllOf:I": 1,
+    "AllOf:IM": 1,
+    "AllOf:MI": 1,
+    "AnyOf:I": 1,
+    "AnyOf:INM": 1,
+    "AnyOf:NMI": 1,
+    "Target:I": 1,
+    "Target:IM": 1,
+    "Target:MI": 1,
+    "Target:INM": 4,
+    "Target:IMNM": 4,
+    "Target:INMM": 4,
+    "Target:MINM": 4
+   },
+   "3": {
+    "AllOf:I": 1,
+    "AllOf:IM": 1,
+    "AllOf:MI": 1,
+    "AnyOf:I": 1,
+    "AnyOf:INM": 1,
+    "AnyOf:NMI": 1,
+    "Target:I": 1,
+    "Target:IM": 1,
+    "Target:MI": 1,
+    "Target:INM": 4,
+    "Target:IMNM": 4,
+    "Target:INMM": 4,
+    "Target:MINM": 4
+   },
+   "4": {
+    "AllOf:I": 1,
+    "AllOf:IM": 1,
+    "AllOf:MI": 1,
+    "AnyOf:I": 1,
+    "AnyOf:INM": 1,
+    "AnyOf:NMI": 1,
+    "Target:I": 1,
+    "Target:IM": 1,
+    "Target:MI": 1,
+    "Target:INM": 4,
+    "Target:IMNM": 4,
+    "Target:INMM": 4,
+    "Target:MINM": 4
+   }
+  }
+ }
+}

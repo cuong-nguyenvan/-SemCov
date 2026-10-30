@@ -1,0 +1,4 @@
+real-rulecov-openaz__CSV-Baseball-Hall-Of-Fame-v1__04348f-r0 java.lang.RuntimeException: load: org.wso2.balana.ParsingException: Unknown FunctionId
+real-rulecov-openaz__CSV-Baseball-Hall-Of-Fame-v1__04348f-r1 java.lang.RuntimeException: load: org.wso2.balana.ParsingException: Unknown FunctionId
+real-rulecov-openaz__CSV-Baseball-Hall-Of-Fame-v1__04348f-r3 java.lang.RuntimeException: load: org.wso2.balana.ParsingException: Unknown FunctionId
+real-rulecov-onap__onap.policies.controlloop.guard.coordination.FirstBlocksSecond__e66d90-r0 java.lang.RuntimeException: load: org.wso2.balana.ParsingException: Error parsing required attribute RuleId

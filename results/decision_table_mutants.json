@@ -1,0 +1,392 @@
+{
+ "n_mutants": 3202,
+ "ct": {
+  "total": {
+   "comb-rule": 1010,
+   "comb-policy": 2030,
+   "rule": 60,
+   "tmap": 60,
+   "tgt": 42
+  },
+  "reached": {
+   "comb-rule": 220,
+   "comb-policy": 155,
+   "rule": 50,
+   "tgt": 28
+  },
+  "killed": {
+   "comb-rule": 179,
+   "comb-policy": 141,
+   "rule": 40,
+   "tgt": 24
+  },
+  "score": 0.11992504684572143
+ },
+ "seeds": [
+  {
+   "seed": 0,
+   "semcov": {
+    "total": {
+     "comb-rule": 1010,
+     "comb-policy": 2030,
+     "rule": 60,
+     "tmap": 60,
+     "tgt": 42
+    },
+    "reached": {
+     "comb-rule": 1010,
+     "comb-policy": 2030,
+     "rule": 60,
+     "tmap": 60,
+     "tgt": 42
+    },
+    "killed": {
+     "comb-rule": 1010,
+     "comb-policy": 2030,
+     "rule": 60,
+     "tmap": 60,
+     "tgt": 42
+    },
+    "score": 1.0
+   },
+   "random": {
+    "total": {
+     "comb-rule": 1010,
+     "comb-policy": 2030,
+     "rule": 60,
+     "tmap": 60,
+     "tgt": 42
+    },
+    "reached": {
+     "comb-rule": 660,
+     "comb-policy": 1080,
+     "rule": 60,
+     "tmap": 55,
+     "tgt": 28
+    },
+    "killed": {
+     "comb-rule": 486,
+     "comb-policy": 881,
+     "rule": 59,
+     "tmap": 36,
+     "tgt": 28
+    },
+    "score": 0.46533416614615863
+   },
+   "rulecov": {
+    "total": {
+     "comb-rule": 1010,
+     "comb-policy": 2030,
+     "rule": 60,
+     "tmap": 60,
+     "tgt": 42
+    },
+    "reached": {
+     "comb-rule": 235,
+     "comb-policy": 430,
+     "rule": 40,
+     "tgt": 16
+    },
+    "killed": {
+     "comb-rule": 226,
+     "comb-policy": 400,
+     "rule": 40,
+     "tgt": 16
+    },
+    "score": 0.21299188007495315
+   }
+  },
+  {
+   "seed": 1,
+   "semcov": {
+    "total": {
+     "comb-rule": 1010,
+     "comb-policy": 2030,
+     "rule": 60,
+     "tmap": 60,
+     "tgt": 42
+    },
+    "reached": {
+     "comb-rule": 1010,
+     "comb-policy": 2030,
+     "rule": 60,
+     "tmap": 60,
+     "tgt": 42
+    },
+    "killed": {
+     "comb-rule": 1010,
+     "comb-policy": 2030,
+     "rule": 60,
+     "tmap": 60,
+     "tgt": 42
+    },
+    "score": 1.0
+   },
+   "random": {
+    "total": {
+     "comb-rule": 1010,
+     "comb-policy": 2030,
+     "rule": 60,
+     "tmap": 60,
+     "tgt": 42
+    },
+    "reached": {
+     "comb-rule": 695,
+     "comb-policy": 1035,
+     "rule": 60,
+     "tmap": 60,
+     "tgt": 28
+    },
+    "killed": {
+     "comb-rule": 515,
+     "comb-policy": 876,
+     "rule": 60,
+     "tmap": 44,
+     "tgt": 28
+    },
+    "score": 0.47564022485946283
+   },
+   "rulecov": {
+    "total": {
+     "comb-rule": 1010,
+     "comb-policy": 2030,
+     "rule": 60,
+     "tmap": 60,
+     "tgt": 42
+    },
+    "reached": {
+     "comb-rule": 235,
+     "comb-policy": 405,
+     "rule": 40,
+     "tgt": 16
+    },
+    "killed": {
+     "comb-rule": 223,
+     "comb-policy": 376,
+     "rule": 40,
+     "tgt": 16
+    },
+    "score": 0.20455965021861336
+   }
+  },
+  {
+   "seed": 2,
+   "semcov": {
+    "total": {
+     "comb-rule": 1010,
+     "comb-policy": 2030,
+     "rule": 60,
+     "tmap": 60,
+     "tgt": 42
+    },
+    "reached": {
+     "comb-rule": 1010,
+     "comb-policy": 2030,
+     "rule": 60,
+     "tmap": 60,
+     "tgt": 42
+    },
+    "killed": {
+     "comb-rule": 1010,
+     "comb-policy": 2030,
+     "rule": 60,
+     "tmap": 60,
+     "tgt": 42
+    },
+    "score": 1.0
+   },
+   "random": {
+    "total": {
+     "comb-rule": 1010,
+     "comb-policy": 2030,
+     "rule": 60,
+     "tmap": 60,
+     "tgt": 42
+    },
+    "reached": {
+     "comb-rule": 655,
+     "comb-policy": 935,
+     "rule": 60,
+     "tmap": 55,
+     "tgt": 28
+    },
+    "killed": {
+     "comb-rule": 478,
+     "comb-policy": 789,
+     "rule": 60,
+     "tmap": 37,
+     "tgt": 28
+    },
+    "score": 0.43472829481574016
+   },
+   "rulecov": {
+    "total": {
+     "comb-rule": 1010,
+     "comb-policy": 2030,
+     "rule": 60,
+     "tmap": 60,
+     "tgt": 42
+    },
+    "reached": {
+     "comb-rule": 235,
+     "comb-policy": 410,
+     "rule": 40,
+     "tgt": 16
+    },
+    "killed": {
+     "comb-rule": 224,
+     "comb-policy": 378,
+     "rule": 40,
+     "tgt": 16
+    },
+    "score": 0.20549656464709556
+   }
+  },
+  {
+   "seed": 3,
+   "semcov": {
+    "total": {
+     "comb-rule": 1010,
+     "comb-policy": 2030,
+     "rule": 60,
+     "tmap": 60,
+     "tgt": 42
+    },
+    "reached": {
+     "comb-rule": 1010,
+     "comb-policy": 2030,
+     "rule": 60,
+     "tmap": 60,
+     "tgt": 42
+    },
+    "killed": {
+     "comb-rule": 1010,
+     "comb-policy": 2030,
+     "rule": 60,
+     "tmap": 60,
+     "tgt": 42
+    },
+    "score": 1.0
+   },
+   "random": {
+    "total": {
+     "comb-rule": 1010,
+     "comb-policy": 2030,
+     "rule": 60,
+     "tmap": 60,
+     "tgt": 42
+    },
+    "reached": {
+     "comb-rule": 680,
+     "comb-policy": 1015,
+     "rule": 60,
+     "tmap": 50,
+     "tgt": 28
+    },
+    "killed": {
+     "comb-rule": 485,
+     "comb-policy": 869,
+     "rule": 60,
+     "tmap": 34,
+     "tgt": 28
+    },
+    "score": 0.46096189881324173
+   },
+   "rulecov": {
+    "total": {
+     "comb-rule": 1010,
+     "comb-policy": 2030,
+     "rule": 60,
+     "tmap": 60,
+     "tgt": 42
+    },
+    "reached": {
+     "comb-rule": 235,
+     "comb-policy": 440,
+     "rule": 40,
+     "tgt": 16
+    },
+    "killed": {
+     "comb-rule": 235,
+     "comb-policy": 408,
+     "rule": 40,
+     "tgt": 16
+    },
+    "score": 0.21830106183635228
+   }
+  },
+  {
+   "seed": 4,
+   "semcov": {
+    "total": {
+     "comb-rule": 1010,
+     "comb-policy": 2030,
+     "rule": 60,
+     "tmap": 60,
+     "tgt": 42
+    },
+    "reached": {
+     "comb-rule": 1010,
+     "comb-policy": 2030,
+     "rule": 60,
+     "tmap": 60,
+     "tgt": 42
+    },
+    "killed": {
+     "comb-rule": 1010,
+     "comb-policy": 2030,
+     "rule": 60,
+     "tmap": 60,
+     "tgt": 42
+    },
+    "score": 1.0
+   },
+   "random": {
+    "total": {
+     "comb-rule": 1010,
+     "comb-policy": 2030,
+     "rule": 60,
+     "tmap": 60,
+     "tgt": 42
+    },
+    "reached": {
+     "comb-rule": 640,
+     "comb-policy": 990,
+     "rule": 60,
+     "tmap": 55,
+     "tgt": 28
+    },
+    "killed": {
+     "comb-rule": 484,
+     "comb-policy": 848,
+     "rule": 60,
+     "tmap": 39,
+     "tgt": 28
+    },
+    "score": 0.45565271705184257
+   },
+   "rulecov": {
+    "total": {
+     "comb-rule": 1010,
+     "comb-policy": 2030,
+     "rule": 60,
+     "tmap": 60,
+     "tgt": 42
+    },
+    "reached": {
+     "comb-rule": 235,
+     "comb-policy": 410,
+     "rule": 40,
+     "tgt": 16
+    },
+    "killed": {
+     "comb-rule": 224,
+     "comb-policy": 381,
+     "rule": 40,
+     "tgt": 16
+    },
+    "score": 0.20643347907557777
+   }
+  }
+ ]
+}

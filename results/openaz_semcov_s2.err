@@ -1,0 +1,616 @@
+s2-g25-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g25-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g25-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g25-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g31-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g31-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g31-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g31-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g33-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g33-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g33-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g33-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g44-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g44-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g44-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g44-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g82-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g82-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g82-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g82-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g89-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g89-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g89-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g89-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g93-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g93-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g93-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g93-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g102-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g102-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g102-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g102-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g147-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g147-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g147-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g147-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g158-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g158-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g158-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g158-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g164-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g164-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g164-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g164-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g168-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g168-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g168-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g168-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g172-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g172-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g172-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g172-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g174-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g174-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g174-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g174-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g217-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g217-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g217-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g217-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g232-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g232-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g232-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g232-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g233-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g233-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g233-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g233-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g296-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g296-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g296-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g296-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g298-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g298-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g298-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g298-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g304-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g304-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g304-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g304-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g353-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g353-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g353-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g353-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g369-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g369-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g369-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g369-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g408-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g408-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g408-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g408-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g428-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g428-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g428-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g428-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g444-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g444-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g444-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g444-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g450-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g450-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g450-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g450-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g459-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g459-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g459-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g459-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g466-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g466-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g466-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g466-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g486-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g486-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g486-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g486-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g573-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g573-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g573-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g573-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g584-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g584-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g584-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g584-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g594-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g594-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g594-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g594-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g597-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g597-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g597-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g597-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g606-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g606-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g606-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g606-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g607-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g607-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g607-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g607-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g696-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g696-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g696-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g696-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g700-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g700-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g700-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g700-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g701-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g701-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g701-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g701-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g702-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g702-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g702-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g702-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g711-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g711-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g711-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g711-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g720-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g720-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g720-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g720-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g722-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g722-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g722-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g722-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g732-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g732-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g732-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g732-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g740-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g740-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g740-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g740-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g742-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g742-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g742-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g742-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g744-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g744-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g744-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g744-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g831-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g831-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g831-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g831-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g856-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g856-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g856-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g856-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g859-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g859-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g859-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g859-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g873-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g873-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g873-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g873-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g944-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g944-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g944-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g944-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g955-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g955-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g955-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g955-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g965-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g965-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g965-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g965-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g968-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g968-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g968-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g968-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g980-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g980-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g980-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g980-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g981-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g981-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g981-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g981-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g983-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g983-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g983-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g983-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g987-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g987-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g987-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g987-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g991-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g991-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g991-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g991-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g993-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g993-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g993-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g993-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g995-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g995-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g995-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g995-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1001-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1001-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1001-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1001-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1075-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1075-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1075-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1075-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1084-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1084-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1084-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1084-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1086-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1086-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1086-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1086-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1090-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1090-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1090-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1090-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1106-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1106-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1106-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1106-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1109-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1109-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1109-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1109-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1110-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1110-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1110-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1110-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1117-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1117-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1117-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1117-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1118-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1118-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1118-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1118-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1125-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1125-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1125-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1125-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1203-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1203-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1203-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1203-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1209-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1209-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1209-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1209-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1244-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1244-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1244-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1244-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1250-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1250-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1250-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1250-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1252-a java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1252-b java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1252-c java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-
+s2-g1252-d java.util.regex.PatternSyntaxException: Illegal character range near index 3
+[a-

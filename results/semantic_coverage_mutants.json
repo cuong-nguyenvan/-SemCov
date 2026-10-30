@@ -1,0 +1,7135 @@
+{
+ "ct": {
+  "n": 445,
+  "coverage": 0.08163265306122448,
+  "by_family": {
+   "rule": [
+    12,
+    10
+   ],
+   "comb-rule": [
+    411,
+    45
+   ],
+   "comb-policy": [
+    820,
+    31
+   ],
+   "src": [
+    10,
+    4
+   ],
+   "tgt": [
+    21,
+    14
+   ]
+  },
+  "killed": [
+   "po_ignore_ip",
+   "dup_ind",
+   "pud_ind",
+   "fa_continue_ind",
+   "ooa_multi_first",
+   "odo_legacy",
+   "anyof_ind_nm",
+   "allof_ind_nm",
+   "mbp_ignored",
+   "oao_multi_first",
+   "oao_empty_false",
+   "rule_tind_na"
+  ],
+  "kill_tests": {
+   "do_errD_permit": 0,
+   "do_permit_first": 0,
+   "do_dp_as_d": 0,
+   "po_errP_deny": 0,
+   "po_ignore_ip": 9,
+   "dup_ind": 2,
+   "pud_ind": 2,
+   "fa_continue_ind": 6,
+   "fa_ind_dp": 0,
+   "ooa_ind_ignored": 0,
+   "ooa_multi_first": 3,
+   "odo_legacy": 2,
+   "anyof_ind_nm": 1,
+   "allof_ind_nm": 1,
+   "target_ind_over_nm": 0,
+   "mbp_ignored": 2,
+   "oao_multi_first": 5,
+   "oao_empty_false": 16,
+   "div0_zero": 0,
+   "regex_false": 0,
+   "pol_tind_dp": 0,
+   "pol_tind_na": 0,
+   "ps_tind_dp": 0,
+   "rule_cind_dp": 0,
+   "rule_tind_na": 1
+  },
+  "mutation_score": 0.48
+ },
+ "seeds": [
+  {
+   "seed": 0,
+   "gen_stats": {
+    "z3_calls": 2306,
+    "z3_time": 18.903952507004078,
+    "unsat": 1032,
+    "tries": 2306,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 21.058314811000173
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 117,
+     "do_permit_first": 682,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 110,
+     "po_ignore_ip": 568,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 81,
+     "fa_ind_dp": 24,
+     "ooa_ind_ignored": 5,
+     "ooa_multi_first": 8,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2165,
+     "allof_ind_nm": 2165,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2099,
+     "oao_multi_first": 185,
+     "oao_empty_false": 102,
+     "div0_zero": 122,
+     "regex_false": 78,
+     "pol_tind_dp": 240,
+     "pol_tind_na": 714,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 101,
+     "rule_tind_na": 236
+    },
+    "mutation_score": 1.0
+   },
+   "rulecov_gen_time": 83.77764254500016,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.12872841444270017,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      94
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "ooa_multi_first",
+     "odo_legacy"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 16,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 30,
+     "pud_ind": 1,
+     "fa_continue_ind": 47,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 671,
+     "odo_legacy": 20,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.24
+   },
+   "random_gen_time": 0.9577776070000255,
+   "random": {
+    "n": 5096,
+    "coverage": 0.36813186813186816,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      182
+     ],
+     "comb-policy": [
+      820,
+      256
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 2,
+     "do_permit_first": 35,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 5,
+     "po_ignore_ip": 37,
+     "dup_ind": 108,
+     "pud_ind": 79,
+     "fa_continue_ind": 76,
+     "fa_ind_dp": 10,
+     "ooa_ind_ignored": 4,
+     "ooa_multi_first": 256,
+     "odo_legacy": 73,
+     "anyof_ind_nm": 118,
+     "allof_ind_nm": 118,
+     "target_ind_over_nm": 15,
+     "mbp_ignored": 118,
+     "oao_multi_first": 35,
+     "oao_empty_false": 48,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 13,
+     "pol_tind_na": 26,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 24,
+     "rule_tind_na": 41
+    },
+    "mutation_score": 0.84
+   },
+   "wall": 149.46620225800007
+  },
+  {
+   "seed": 1,
+   "gen_stats": {
+    "z3_calls": 2238,
+    "z3_time": 17.71622786300236,
+    "unsat": 964,
+    "tries": 2238,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 19.81938214300021
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 104,
+     "do_permit_first": 680,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 114,
+     "po_ignore_ip": 560,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 109,
+     "fa_ind_dp": 38,
+     "ooa_ind_ignored": 5,
+     "ooa_multi_first": 2,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2167,
+     "allof_ind_nm": 2167,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2086,
+     "oao_multi_first": 154,
+     "oao_empty_false": 130,
+     "div0_zero": 96,
+     "regex_false": 104,
+     "pol_tind_dp": 243,
+     "pol_tind_na": 763,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 112,
+     "rule_tind_na": 227
+    },
+    "mutation_score": 1.0
+   },
+   "rulecov_gen_time": 84.70911660299998,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.12480376766091052,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      89
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "ooa_multi_first",
+     "odo_legacy"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 27,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 34,
+     "pud_ind": 8,
+     "fa_continue_ind": 9,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 621,
+     "odo_legacy": 15,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.24
+   },
+   "random_gen_time": 0.8464051599999038,
+   "random": {
+    "n": 5096,
+    "coverage": 0.35949764521193095,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      181
+     ],
+     "comb-policy": [
+      820,
+      246
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 2,
+     "do_permit_first": 48,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 7,
+     "po_ignore_ip": 48,
+     "dup_ind": 88,
+     "pud_ind": 55,
+     "fa_continue_ind": 75,
+     "fa_ind_dp": 1,
+     "ooa_ind_ignored": 12,
+     "ooa_multi_first": 340,
+     "odo_legacy": 53,
+     "anyof_ind_nm": 108,
+     "allof_ind_nm": 108,
+     "target_ind_over_nm": 21,
+     "mbp_ignored": 108,
+     "oao_multi_first": 32,
+     "oao_empty_false": 54,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 10,
+     "pol_tind_na": 19,
+     "ps_tind_dp": 6,
+     "rule_cind_dp": 17,
+     "rule_tind_na": 44
+    },
+    "mutation_score": 0.88
+   },
+   "wall": 147.01429179399997
+  },
+  {
+   "seed": 2,
+   "gen_stats": {
+    "z3_calls": 2266,
+    "z3_time": 17.366340828006287,
+    "unsat": 992,
+    "tries": 2266,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 19.42552707599998
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 117,
+     "do_permit_first": 675,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 99,
+     "po_ignore_ip": 536,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 108,
+     "fa_ind_dp": 39,
+     "ooa_ind_ignored": 8,
+     "ooa_multi_first": 2,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2171,
+     "allof_ind_nm": 2171,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2078,
+     "oao_multi_first": 223,
+     "oao_empty_false": 101,
+     "div0_zero": 118,
+     "regex_false": 118,
+     "pol_tind_dp": 240,
+     "pol_tind_na": 742,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 102,
+     "rule_tind_na": 248
+    },
+    "mutation_score": 1.0
+   },
+   "rulecov_gen_time": 86.18992356400008,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.12558869701726844,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      90
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "ooa_multi_first",
+     "odo_legacy"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 10,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 21,
+     "pud_ind": 15,
+     "fa_continue_ind": 16,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 579,
+     "odo_legacy": 8,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.24
+   },
+   "random_gen_time": 0.8631503550000161,
+   "random": {
+    "n": 5096,
+    "coverage": 0.33202511773940346,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      174
+     ],
+     "comb-policy": [
+      820,
+      218
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 1,
+     "do_permit_first": 31,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 1,
+     "po_ignore_ip": 41,
+     "dup_ind": 84,
+     "pud_ind": 74,
+     "fa_continue_ind": 119,
+     "fa_ind_dp": 6,
+     "ooa_ind_ignored": 11,
+     "ooa_multi_first": 396,
+     "odo_legacy": 85,
+     "anyof_ind_nm": 109,
+     "allof_ind_nm": 109,
+     "target_ind_over_nm": 34,
+     "mbp_ignored": 109,
+     "oao_multi_first": 36,
+     "oao_empty_false": 68,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 12,
+     "pol_tind_na": 23,
+     "ps_tind_dp": 11,
+     "rule_cind_dp": 8,
+     "rule_tind_na": 35
+    },
+    "mutation_score": 0.88
+   },
+   "wall": 149.21851415800006
+  },
+  {
+   "seed": 3,
+   "gen_stats": {
+    "z3_calls": 2159,
+    "z3_time": 17.015347829995335,
+    "unsat": 885,
+    "tries": 2159,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 19.11931803399989
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 102,
+     "do_permit_first": 683,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 114,
+     "po_ignore_ip": 589,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 92,
+     "fa_ind_dp": 41,
+     "ooa_ind_ignored": 8,
+     "ooa_multi_first": 8,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2147,
+     "allof_ind_nm": 2147,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2055,
+     "oao_multi_first": 147,
+     "oao_empty_false": 134,
+     "div0_zero": 104,
+     "regex_false": 110,
+     "pol_tind_dp": 233,
+     "pol_tind_na": 748,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 111,
+     "rule_tind_na": 220
+    },
+    "mutation_score": 1.0
+   },
+   "rulecov_gen_time": 84.76010664599994,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.130298273155416,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      96
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "ooa_multi_first",
+     "odo_legacy"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 20,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 57,
+     "pud_ind": 11,
+     "fa_continue_ind": 21,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 651,
+     "odo_legacy": 21,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.24
+   },
+   "random_gen_time": 0.8861129120000442,
+   "random": {
+    "n": 5096,
+    "coverage": 0.3540031397174254,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      184
+     ],
+     "comb-policy": [
+      820,
+      236
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 33,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 4,
+     "po_ignore_ip": 36,
+     "dup_ind": 82,
+     "pud_ind": 69,
+     "fa_continue_ind": 57,
+     "fa_ind_dp": 1,
+     "ooa_ind_ignored": 12,
+     "ooa_multi_first": 360,
+     "odo_legacy": 55,
+     "anyof_ind_nm": 83,
+     "allof_ind_nm": 83,
+     "target_ind_over_nm": 34,
+     "mbp_ignored": 83,
+     "oao_multi_first": 32,
+     "oao_empty_false": 58,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 10,
+     "pol_tind_na": 11,
+     "ps_tind_dp": 2,
+     "rule_cind_dp": 22,
+     "rule_tind_na": 31
+    },
+    "mutation_score": 0.84
+   },
+   "wall": 148.11244065799997
+  },
+  {
+   "seed": 4,
+   "gen_stats": {
+    "z3_calls": 2219,
+    "z3_time": 18.0997818709925,
+    "unsat": 945,
+    "tries": 2219,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 20.28318672599994
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 106,
+     "do_permit_first": 687,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 102,
+     "po_ignore_ip": 558,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 111,
+     "fa_ind_dp": 30,
+     "ooa_ind_ignored": 8,
+     "ooa_multi_first": 1,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2143,
+     "allof_ind_nm": 2143,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2060,
+     "oao_multi_first": 164,
+     "oao_empty_false": 104,
+     "div0_zero": 105,
+     "regex_false": 109,
+     "pol_tind_dp": 244,
+     "pol_tind_na": 730,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 94,
+     "rule_tind_na": 231
+    },
+    "mutation_score": 1.0
+   },
+   "rulecov_gen_time": 87.15972610600011,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.12558869701726844,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      90
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "ooa_multi_first",
+     "odo_legacy"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 39,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 4,
+     "pud_ind": 35,
+     "fa_continue_ind": 16,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 623,
+     "odo_legacy": 23,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.24
+   },
+   "random_gen_time": 0.7687952629999018,
+   "random": {
+    "n": 5096,
+    "coverage": 0.34615384615384615,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      173
+     ],
+     "comb-policy": [
+      820,
+      237
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 1,
+     "do_permit_first": 22,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 1,
+     "po_ignore_ip": 53,
+     "dup_ind": 111,
+     "pud_ind": 95,
+     "fa_continue_ind": 67,
+     "fa_ind_dp": 11,
+     "ooa_ind_ignored": 4,
+     "ooa_multi_first": 493,
+     "odo_legacy": 71,
+     "anyof_ind_nm": 114,
+     "allof_ind_nm": 114,
+     "target_ind_over_nm": 36,
+     "mbp_ignored": 114,
+     "oao_multi_first": 35,
+     "oao_empty_false": 51,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 18,
+     "pol_tind_na": 31,
+     "ps_tind_dp": 5,
+     "rule_cind_dp": 31,
+     "rule_tind_na": 48
+    },
+    "mutation_score": 0.88
+   },
+   "wall": 150.96447578200014
+  },
+  {
+   "seed": 5,
+   "gen_stats": {
+    "z3_calls": 2255,
+    "z3_time": 17.56031584300672,
+    "unsat": 981,
+    "tries": 2255,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 19.68538850799996
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 111,
+     "do_permit_first": 682,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 96,
+     "po_ignore_ip": 553,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 108,
+     "fa_ind_dp": 29,
+     "ooa_ind_ignored": 4,
+     "ooa_multi_first": 4,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2166,
+     "allof_ind_nm": 2166,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2076,
+     "oao_multi_first": 181,
+     "oao_empty_false": 128,
+     "div0_zero": 122,
+     "regex_false": 115,
+     "pol_tind_dp": 243,
+     "pol_tind_na": 756,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 95,
+     "rule_tind_na": 247
+    },
+    "mutation_score": 1.0
+   },
+   "rulecov_gen_time": 84.720635937,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.12794348508634223,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      93
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "ooa_multi_first",
+     "odo_legacy"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 41,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 6,
+     "pud_ind": 41,
+     "fa_continue_ind": 7,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 545,
+     "odo_legacy": 30,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.24
+   },
+   "random_gen_time": 0.8417342269999608,
+   "random": {
+    "n": 5096,
+    "coverage": 0.33437990580847726,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      163
+     ],
+     "comb-policy": [
+      820,
+      232
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 1,
+     "do_permit_first": 39,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 5,
+     "po_ignore_ip": 45,
+     "dup_ind": 99,
+     "pud_ind": 79,
+     "fa_continue_ind": 70,
+     "fa_ind_dp": 5,
+     "ooa_ind_ignored": 9,
+     "ooa_multi_first": 322,
+     "odo_legacy": 69,
+     "anyof_ind_nm": 102,
+     "allof_ind_nm": 102,
+     "target_ind_over_nm": 23,
+     "mbp_ignored": 102,
+     "oao_multi_first": 33,
+     "oao_empty_false": 57,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 25,
+     "pol_tind_na": 23,
+     "ps_tind_dp": 2,
+     "rule_cind_dp": 19,
+     "rule_tind_na": 29
+    },
+    "mutation_score": 0.88
+   },
+   "wall": 147.984345416
+  },
+  {
+   "seed": 6,
+   "gen_stats": {
+    "z3_calls": 2342,
+    "z3_time": 18.010729729998502,
+    "unsat": 1068,
+    "tries": 2342,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 20.011444817999973
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 92,
+     "do_permit_first": 649,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 116,
+     "po_ignore_ip": 582,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 119,
+     "fa_ind_dp": 46,
+     "ooa_ind_ignored": 4,
+     "ooa_multi_first": 5,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2156,
+     "allof_ind_nm": 2156,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2064,
+     "oao_multi_first": 216,
+     "oao_empty_false": 98,
+     "div0_zero": 89,
+     "regex_false": 110,
+     "pol_tind_dp": 238,
+     "pol_tind_na": 743,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 91,
+     "rule_tind_na": 251
+    },
+    "mutation_score": 1.0
+   },
+   "rulecov_gen_time": 84.64092621200007,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.12480376766091052,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      89
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "ooa_multi_first",
+     "odo_legacy"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 13,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 23,
+     "pud_ind": 34,
+     "fa_continue_ind": 20,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 787,
+     "odo_legacy": 17,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.24
+   },
+   "random_gen_time": 0.9376597959999344,
+   "random": {
+    "n": 5096,
+    "coverage": 0.34222919937205654,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      173
+     ],
+     "comb-policy": [
+      820,
+      232
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 27,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 30,
+     "dup_ind": 76,
+     "pud_ind": 142,
+     "fa_continue_ind": 69,
+     "fa_ind_dp": 9,
+     "ooa_ind_ignored": 5,
+     "ooa_multi_first": 206,
+     "odo_legacy": 91,
+     "anyof_ind_nm": 79,
+     "allof_ind_nm": 79,
+     "target_ind_over_nm": 25,
+     "mbp_ignored": 79,
+     "oao_multi_first": 36,
+     "oao_empty_false": 52,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 11,
+     "pol_tind_na": 17,
+     "ps_tind_dp": 5,
+     "rule_cind_dp": 20,
+     "rule_tind_na": 24
+    },
+    "mutation_score": 0.8
+   },
+   "wall": 147.0162001640001
+  },
+  {
+   "seed": 7,
+   "gen_stats": {
+    "z3_calls": 2162,
+    "z3_time": 17.495664187001694,
+    "unsat": 888,
+    "tries": 2162,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 19.651629127999968
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 100,
+     "do_permit_first": 671,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 122,
+     "po_ignore_ip": 579,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 99,
+     "fa_ind_dp": 29,
+     "ooa_ind_ignored": 8,
+     "ooa_multi_first": 5,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2160,
+     "allof_ind_nm": 2160,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2068,
+     "oao_multi_first": 172,
+     "oao_empty_false": 113,
+     "div0_zero": 123,
+     "regex_false": 106,
+     "pol_tind_dp": 246,
+     "pol_tind_na": 747,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 90,
+     "rule_tind_na": 248
+    },
+    "mutation_score": 1.0
+   },
+   "rulecov_gen_time": 87.94775884499995,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.12558869701726844,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      90
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "dup_ind",
+     "fa_continue_ind",
+     "ooa_multi_first",
+     "odo_legacy"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 13,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 31,
+     "pud_ind": 0,
+     "fa_continue_ind": 53,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 682,
+     "odo_legacy": 13,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.2
+   },
+   "random_gen_time": 0.8192434599998251,
+   "random": {
+    "n": 5096,
+    "coverage": 0.35478806907378335,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      174
+     ],
+     "comb-policy": [
+      820,
+      247
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 16,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 3,
+     "po_ignore_ip": 27,
+     "dup_ind": 101,
+     "pud_ind": 95,
+     "fa_continue_ind": 50,
+     "fa_ind_dp": 4,
+     "ooa_ind_ignored": 6,
+     "ooa_multi_first": 287,
+     "odo_legacy": 65,
+     "anyof_ind_nm": 77,
+     "allof_ind_nm": 77,
+     "target_ind_over_nm": 26,
+     "mbp_ignored": 77,
+     "oao_multi_first": 36,
+     "oao_empty_false": 45,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 12,
+     "pol_tind_na": 21,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 22,
+     "rule_tind_na": 22
+    },
+    "mutation_score": 0.8
+   },
+   "wall": 151.11520941799995
+  },
+  {
+   "seed": 8,
+   "gen_stats": {
+    "z3_calls": 2214,
+    "z3_time": 15.797785708997708,
+    "unsat": 940,
+    "tries": 2214,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 17.625896713999964
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 112,
+     "do_permit_first": 676,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 115,
+     "po_ignore_ip": 585,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 112,
+     "fa_ind_dp": 33,
+     "ooa_ind_ignored": 8,
+     "ooa_multi_first": 5,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2133,
+     "allof_ind_nm": 2133,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2059,
+     "oao_multi_first": 173,
+     "oao_empty_false": 133,
+     "div0_zero": 98,
+     "regex_false": 89,
+     "pol_tind_dp": 240,
+     "pol_tind_na": 732,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 102,
+     "rule_tind_na": 248
+    },
+    "mutation_score": 1.0
+   },
+   "rulecov_gen_time": 87.78011118699987,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.12166405023547881,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      85
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "pud_ind",
+     "fa_continue_ind",
+     "ooa_multi_first",
+     "odo_legacy"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 14,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 0,
+     "pud_ind": 8,
+     "fa_continue_ind": 2,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 658,
+     "odo_legacy": 13,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.2
+   },
+   "random_gen_time": 0.9030791919999501,
+   "random": {
+    "n": 5096,
+    "coverage": 0.33987441130298274,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      171
+     ],
+     "comb-policy": [
+      820,
+      231
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 1,
+     "do_permit_first": 33,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 2,
+     "po_ignore_ip": 41,
+     "dup_ind": 172,
+     "pud_ind": 88,
+     "fa_continue_ind": 64,
+     "fa_ind_dp": 11,
+     "ooa_ind_ignored": 11,
+     "ooa_multi_first": 409,
+     "odo_legacy": 75,
+     "anyof_ind_nm": 89,
+     "allof_ind_nm": 89,
+     "target_ind_over_nm": 35,
+     "mbp_ignored": 89,
+     "oao_multi_first": 36,
+     "oao_empty_false": 61,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 8,
+     "pol_tind_na": 15,
+     "ps_tind_dp": 12,
+     "rule_cind_dp": 23,
+     "rule_tind_na": 28
+    },
+    "mutation_score": 0.88
+   },
+   "wall": 148.38892625000017
+  },
+  {
+   "seed": 9,
+   "gen_stats": {
+    "z3_calls": 2232,
+    "z3_time": 16.091663932995743,
+    "unsat": 958,
+    "tries": 2232,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 18.008100384000045
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 103,
+     "do_permit_first": 687,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 116,
+     "po_ignore_ip": 571,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 110,
+     "fa_ind_dp": 37,
+     "ooa_ind_ignored": 8,
+     "ooa_multi_first": 2,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2149,
+     "allof_ind_nm": 2149,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2052,
+     "oao_multi_first": 181,
+     "oao_empty_false": 110,
+     "div0_zero": 105,
+     "regex_false": 115,
+     "pol_tind_dp": 240,
+     "pol_tind_na": 744,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 120,
+     "rule_tind_na": 235
+    },
+    "mutation_score": 1.0
+   },
+   "rulecov_gen_time": 87.64145216999987,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.1271585557299843,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      92
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "ooa_multi_first",
+     "odo_legacy"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 11,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 1,
+     "pud_ind": 23,
+     "fa_continue_ind": 81,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 733,
+     "odo_legacy": 5,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.24
+   },
+   "random_gen_time": 0.855395789999875,
+   "random": {
+    "n": 5096,
+    "coverage": 0.34222919937205654,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      170
+     ],
+     "comb-policy": [
+      820,
+      235
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 2,
+     "do_permit_first": 14,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 39,
+     "dup_ind": 85,
+     "pud_ind": 120,
+     "fa_continue_ind": 64,
+     "fa_ind_dp": 6,
+     "ooa_ind_ignored": 11,
+     "ooa_multi_first": 321,
+     "odo_legacy": 72,
+     "anyof_ind_nm": 100,
+     "allof_ind_nm": 100,
+     "target_ind_over_nm": 39,
+     "mbp_ignored": 100,
+     "oao_multi_first": 30,
+     "oao_empty_false": 47,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 16,
+     "pol_tind_na": 24,
+     "ps_tind_dp": 8,
+     "rule_cind_dp": 17,
+     "rule_tind_na": 38
+    },
+    "mutation_score": 0.84
+   },
+   "wall": 147.51782366299994
+  },
+  {
+   "seed": 10,
+   "gen_stats": {
+    "z3_calls": 2214,
+    "z3_time": 15.36720663798451,
+    "unsat": 940,
+    "tries": 2214,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 17.160117092999826
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 108,
+     "do_permit_first": 692,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 104,
+     "po_ignore_ip": 560,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 104,
+     "fa_ind_dp": 31,
+     "ooa_ind_ignored": 1,
+     "ooa_multi_first": 5,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2126,
+     "allof_ind_nm": 2126,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2023,
+     "oao_multi_first": 191,
+     "oao_empty_false": 130,
+     "div0_zero": 130,
+     "regex_false": 121,
+     "pol_tind_dp": 238,
+     "pol_tind_na": 732,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 110,
+     "rule_tind_na": 197
+    },
+    "mutation_score": 1.0
+   },
+   "rulecov_gen_time": 85.59689105100006,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.12558869701726844,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      90
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "pud_ind",
+     "ooa_multi_first",
+     "odo_legacy"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 21,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 0,
+     "pud_ind": 24,
+     "fa_continue_ind": 0,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 556,
+     "odo_legacy": 11,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.16
+   },
+   "random_gen_time": 0.7895492110001214,
+   "random": {
+    "n": 5096,
+    "coverage": 0.3579277864992151,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      175
+     ],
+     "comb-policy": [
+      820,
+      250
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 3,
+     "do_permit_first": 34,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 57,
+     "dup_ind": 77,
+     "pud_ind": 84,
+     "fa_continue_ind": 77,
+     "fa_ind_dp": 7,
+     "ooa_ind_ignored": 9,
+     "ooa_multi_first": 312,
+     "odo_legacy": 55,
+     "anyof_ind_nm": 130,
+     "allof_ind_nm": 130,
+     "target_ind_over_nm": 35,
+     "mbp_ignored": 130,
+     "oao_multi_first": 44,
+     "oao_empty_false": 56,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 14,
+     "pol_tind_na": 29,
+     "ps_tind_dp": 6,
+     "rule_cind_dp": 20,
+     "rule_tind_na": 39
+    },
+    "mutation_score": 0.84
+   },
+   "wall": 144.40979103300015
+  },
+  {
+   "seed": 11,
+   "gen_stats": {
+    "z3_calls": 2215,
+    "z3_time": 16.79876856099554,
+    "unsat": 941,
+    "tries": 2215,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 18.79509527800019
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 107,
+     "do_permit_first": 685,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 99,
+     "po_ignore_ip": 585,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 99,
+     "fa_ind_dp": 37,
+     "ooa_ind_ignored": 4,
+     "ooa_multi_first": 5,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2163,
+     "allof_ind_nm": 2163,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2066,
+     "oao_multi_first": 131,
+     "oao_empty_false": 97,
+     "div0_zero": 101,
+     "regex_false": 118,
+     "pol_tind_dp": 230,
+     "pol_tind_na": 721,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 107,
+     "rule_tind_na": 253
+    },
+    "mutation_score": 1.0
+   },
+   "rulecov_gen_time": 87.72628925299978,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.12087912087912088,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      84
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "ooa_multi_first",
+     "odo_legacy"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 37,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 19,
+     "pud_ind": 21,
+     "fa_continue_ind": 2,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 644,
+     "odo_legacy": 43,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.24
+   },
+   "random_gen_time": 0.8933690590001788,
+   "random": {
+    "n": 5096,
+    "coverage": 0.3642072213500785,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      184
+     ],
+     "comb-policy": [
+      820,
+      249
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 8,
+     "do_permit_first": 44,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 2,
+     "po_ignore_ip": 38,
+     "dup_ind": 99,
+     "pud_ind": 166,
+     "fa_continue_ind": 56,
+     "fa_ind_dp": 3,
+     "ooa_ind_ignored": 14,
+     "ooa_multi_first": 376,
+     "odo_legacy": 84,
+     "anyof_ind_nm": 107,
+     "allof_ind_nm": 107,
+     "target_ind_over_nm": 13,
+     "mbp_ignored": 107,
+     "oao_multi_first": 32,
+     "oao_empty_false": 45,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 8,
+     "pol_tind_na": 24,
+     "ps_tind_dp": 2,
+     "rule_cind_dp": 15,
+     "rule_tind_na": 36
+    },
+    "mutation_score": 0.88
+   },
+   "wall": 151.5395482140002
+  },
+  {
+   "seed": 12,
+   "gen_stats": {
+    "z3_calls": 2274,
+    "z3_time": 18.49115065301089,
+    "unsat": 1000,
+    "tries": 2274,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 20.603879458999927
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 109,
+     "do_permit_first": 697,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 99,
+     "po_ignore_ip": 552,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 122,
+     "fa_ind_dp": 36,
+     "ooa_ind_ignored": 8,
+     "ooa_multi_first": 5,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2162,
+     "allof_ind_nm": 2162,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2065,
+     "oao_multi_first": 163,
+     "oao_empty_false": 96,
+     "div0_zero": 139,
+     "regex_false": 127,
+     "pol_tind_dp": 230,
+     "pol_tind_na": 716,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 124,
+     "rule_tind_na": 264
+    },
+    "mutation_score": 1.0
+   },
+   "rulecov_gen_time": 85.11183036299963,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.130298273155416,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      96
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "ooa_multi_first",
+     "odo_legacy"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 4,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 80,
+     "pud_ind": 7,
+     "fa_continue_ind": 25,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 622,
+     "odo_legacy": 5,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.24
+   },
+   "random_gen_time": 0.8998010899999827,
+   "random": {
+    "n": 5096,
+    "coverage": 0.34379905808477235,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      177
+     ],
+     "comb-policy": [
+      820,
+      230
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 6,
+     "do_permit_first": 38,
+     "do_dp_as_d": 1,
+     "po_errP_deny": 3,
+     "po_ignore_ip": 36,
+     "dup_ind": 90,
+     "pud_ind": 102,
+     "fa_continue_ind": 53,
+     "fa_ind_dp": 6,
+     "ooa_ind_ignored": 4,
+     "ooa_multi_first": 296,
+     "odo_legacy": 62,
+     "anyof_ind_nm": 129,
+     "allof_ind_nm": 129,
+     "target_ind_over_nm": 25,
+     "mbp_ignored": 129,
+     "oao_multi_first": 28,
+     "oao_empty_false": 40,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 21,
+     "pol_tind_na": 29,
+     "ps_tind_dp": 5,
+     "rule_cind_dp": 22,
+     "rule_tind_na": 42
+    },
+    "mutation_score": 0.92
+   },
+   "wall": 148.4472001370002
+  },
+  {
+   "seed": 13,
+   "gen_stats": {
+    "z3_calls": 2248,
+    "z3_time": 17.31053591700993,
+    "unsat": 974,
+    "tries": 2248,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 19.321455868000157
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 105,
+     "do_permit_first": 659,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 117,
+     "po_ignore_ip": 594,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 98,
+     "fa_ind_dp": 28,
+     "ooa_ind_ignored": 8,
+     "ooa_multi_first": 5,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2140,
+     "allof_ind_nm": 2140,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2074,
+     "oao_multi_first": 171,
+     "oao_empty_false": 117,
+     "div0_zero": 160,
+     "regex_false": 79,
+     "pol_tind_dp": 245,
+     "pol_tind_na": 761,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 114,
+     "rule_tind_na": 183
+    },
+    "mutation_score": 1.0
+   },
+   "rulecov_gen_time": 85.06831497999974,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.12794348508634223,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      93
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "ooa_multi_first",
+     "odo_legacy"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 33,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 16,
+     "pud_ind": 14,
+     "fa_continue_ind": 39,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 605,
+     "odo_legacy": 16,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.24
+   },
+   "random_gen_time": 0.7856619989997853,
+   "random": {
+    "n": 5096,
+    "coverage": 0.33830455259026687,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      164
+     ],
+     "comb-policy": [
+      820,
+      236
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 1,
+     "do_permit_first": 47,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 5,
+     "po_ignore_ip": 52,
+     "dup_ind": 80,
+     "pud_ind": 60,
+     "fa_continue_ind": 63,
+     "fa_ind_dp": 6,
+     "ooa_ind_ignored": 9,
+     "ooa_multi_first": 366,
+     "odo_legacy": 72,
+     "anyof_ind_nm": 92,
+     "allof_ind_nm": 92,
+     "target_ind_over_nm": 30,
+     "mbp_ignored": 92,
+     "oao_multi_first": 28,
+     "oao_empty_false": 56,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 15,
+     "pol_tind_na": 14,
+     "ps_tind_dp": 4,
+     "rule_cind_dp": 18,
+     "rule_tind_na": 31
+    },
+    "mutation_score": 0.88
+   },
+   "wall": 146.29822842600015
+  },
+  {
+   "seed": 14,
+   "gen_stats": {
+    "z3_calls": 2254,
+    "z3_time": 17.122401595006977,
+    "unsat": 980,
+    "tries": 2254,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 19.131266139000218
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 99,
+     "do_permit_first": 694,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 121,
+     "po_ignore_ip": 583,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 102,
+     "fa_ind_dp": 44,
+     "ooa_ind_ignored": 8,
+     "ooa_multi_first": 5,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2187,
+     "allof_ind_nm": 2187,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2081,
+     "oao_multi_first": 188,
+     "oao_empty_false": 106,
+     "div0_zero": 102,
+     "regex_false": 123,
+     "pol_tind_dp": 238,
+     "pol_tind_na": 728,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 101,
+     "rule_tind_na": 264
+    },
+    "mutation_score": 1.0
+   },
+   "rulecov_gen_time": 85.18803244900027,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.13108320251177394,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      97
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "ooa_multi_first",
+     "odo_legacy"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 15,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 14,
+     "pud_ind": 16,
+     "fa_continue_ind": 20,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 709,
+     "odo_legacy": 15,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.24
+   },
+   "random_gen_time": 0.8473013090001587,
+   "random": {
+    "n": 5096,
+    "coverage": 0.3673469387755102,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      184
+     ],
+     "comb-policy": [
+      820,
+      253
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 2,
+     "do_permit_first": 29,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 5,
+     "po_ignore_ip": 65,
+     "dup_ind": 70,
+     "pud_ind": 79,
+     "fa_continue_ind": 59,
+     "fa_ind_dp": 6,
+     "ooa_ind_ignored": 5,
+     "ooa_multi_first": 394,
+     "odo_legacy": 64,
+     "anyof_ind_nm": 117,
+     "allof_ind_nm": 117,
+     "target_ind_over_nm": 34,
+     "mbp_ignored": 117,
+     "oao_multi_first": 42,
+     "oao_empty_false": 56,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 13,
+     "pol_tind_na": 28,
+     "ps_tind_dp": 5,
+     "rule_cind_dp": 23,
+     "rule_tind_na": 33
+    },
+    "mutation_score": 0.88
+   },
+   "wall": 147.6516865599997
+  },
+  {
+   "seed": 15,
+   "gen_stats": {
+    "z3_calls": 2179,
+    "z3_time": 17.021705043006477,
+    "unsat": 905,
+    "tries": 2179,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 19.05210822400022
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 114,
+     "do_permit_first": 694,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 103,
+     "po_ignore_ip": 535,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 112,
+     "fa_ind_dp": 39,
+     "ooa_ind_ignored": 5,
+     "ooa_multi_first": 8,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2129,
+     "allof_ind_nm": 2129,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2073,
+     "oao_multi_first": 168,
+     "oao_empty_false": 119,
+     "div0_zero": 102,
+     "regex_false": 91,
+     "pol_tind_dp": 233,
+     "pol_tind_na": 764,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 117,
+     "rule_tind_na": 202
+    },
+    "mutation_score": 1.0
+   },
+   "rulecov_gen_time": 86.36063775499997,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.130298273155416,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      96
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "ooa_multi_first",
+     "odo_legacy"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 23,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 43,
+     "pud_ind": 43,
+     "fa_continue_ind": 4,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 563,
+     "odo_legacy": 10,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.24
+   },
+   "random_gen_time": 0.8551986819998092,
+   "random": {
+    "n": 5096,
+    "coverage": 0.36106750392464676,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      183
+     ],
+     "comb-policy": [
+      820,
+      246
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 2,
+     "do_permit_first": 39,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 8,
+     "po_ignore_ip": 31,
+     "dup_ind": 86,
+     "pud_ind": 74,
+     "fa_continue_ind": 44,
+     "fa_ind_dp": 2,
+     "ooa_ind_ignored": 7,
+     "ooa_multi_first": 364,
+     "odo_legacy": 53,
+     "anyof_ind_nm": 137,
+     "allof_ind_nm": 137,
+     "target_ind_over_nm": 19,
+     "mbp_ignored": 137,
+     "oao_multi_first": 37,
+     "oao_empty_false": 51,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 11,
+     "pol_tind_na": 24,
+     "ps_tind_dp": 5,
+     "rule_cind_dp": 16,
+     "rule_tind_na": 44
+    },
+    "mutation_score": 0.88
+   },
+   "wall": 147.49557539599982
+  },
+  {
+   "seed": 16,
+   "gen_stats": {
+    "z3_calls": 2204,
+    "z3_time": 17.7958679469898,
+    "unsat": 930,
+    "tries": 2204,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 19.950805428999956
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 119,
+     "do_permit_first": 688,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 95,
+     "po_ignore_ip": 539,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 101,
+     "fa_ind_dp": 35,
+     "ooa_ind_ignored": 4,
+     "ooa_multi_first": 2,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2160,
+     "allof_ind_nm": 2160,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2069,
+     "oao_multi_first": 170,
+     "oao_empty_false": 115,
+     "div0_zero": 97,
+     "regex_false": 126,
+     "pol_tind_dp": 237,
+     "pol_tind_na": 751,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 103,
+     "rule_tind_na": 252
+    },
+    "mutation_score": 1.0
+   },
+   "rulecov_gen_time": 88.83866212500016,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.12558869701726844,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      90
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "ooa_multi_first",
+     "odo_legacy"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 20,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 19,
+     "pud_ind": 9,
+     "fa_continue_ind": 1,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 604,
+     "odo_legacy": 16,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.24
+   },
+   "random_gen_time": 0.8252128060003088,
+   "random": {
+    "n": 5096,
+    "coverage": 0.3516483516483517,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      175
+     ],
+     "comb-policy": [
+      820,
+      242
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 1,
+     "do_permit_first": 21,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 4,
+     "po_ignore_ip": 43,
+     "dup_ind": 108,
+     "pud_ind": 77,
+     "fa_continue_ind": 45,
+     "fa_ind_dp": 6,
+     "ooa_ind_ignored": 6,
+     "ooa_multi_first": 321,
+     "odo_legacy": 54,
+     "anyof_ind_nm": 96,
+     "allof_ind_nm": 96,
+     "target_ind_over_nm": 24,
+     "mbp_ignored": 96,
+     "oao_multi_first": 32,
+     "oao_empty_false": 46,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 20,
+     "pol_tind_na": 21,
+     "ps_tind_dp": 5,
+     "rule_cind_dp": 20,
+     "rule_tind_na": 31
+    },
+    "mutation_score": 0.88
+   },
+   "wall": 150.44639639800016
+  },
+  {
+   "seed": 17,
+   "gen_stats": {
+    "z3_calls": 2165,
+    "z3_time": 17.06116271598421,
+    "unsat": 891,
+    "tries": 2165,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 19.105773229999613
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 102,
+     "do_permit_first": 686,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 115,
+     "po_ignore_ip": 591,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 93,
+     "fa_ind_dp": 36,
+     "ooa_ind_ignored": 8,
+     "ooa_multi_first": 5,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2181,
+     "allof_ind_nm": 2181,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2086,
+     "oao_multi_first": 150,
+     "oao_empty_false": 152,
+     "div0_zero": 119,
+     "regex_false": 112,
+     "pol_tind_dp": 244,
+     "pol_tind_na": 761,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 106,
+     "rule_tind_na": 240
+    },
+    "mutation_score": 1.0
+   },
+   "rulecov_gen_time": 87.49543159299992,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.12401883830455258,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      88
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "ooa_multi_first",
+     "odo_legacy"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 17,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 23,
+     "pud_ind": 6,
+     "fa_continue_ind": 46,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 831,
+     "odo_legacy": 26,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.24
+   },
+   "random_gen_time": 0.9327258549997168,
+   "random": {
+    "n": 5096,
+    "coverage": 0.3563579277864992,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      177
+     ],
+     "comb-policy": [
+      820,
+      246
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 3,
+     "do_permit_first": 51,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 2,
+     "po_ignore_ip": 54,
+     "dup_ind": 104,
+     "pud_ind": 97,
+     "fa_continue_ind": 57,
+     "fa_ind_dp": 2,
+     "ooa_ind_ignored": 10,
+     "ooa_multi_first": 373,
+     "odo_legacy": 74,
+     "anyof_ind_nm": 109,
+     "allof_ind_nm": 109,
+     "target_ind_over_nm": 29,
+     "mbp_ignored": 109,
+     "oao_multi_first": 46,
+     "oao_empty_false": 56,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 12,
+     "pol_tind_na": 14,
+     "ps_tind_dp": 4,
+     "rule_cind_dp": 11,
+     "rule_tind_na": 39
+    },
+    "mutation_score": 0.88
+   },
+   "wall": 149.15274426299993
+  },
+  {
+   "seed": 18,
+   "gen_stats": {
+    "z3_calls": 2216,
+    "z3_time": 17.4182375100022,
+    "unsat": 942,
+    "tries": 2216,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 19.446220437000193
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 108,
+     "do_permit_first": 702,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 105,
+     "po_ignore_ip": 574,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 98,
+     "fa_ind_dp": 32,
+     "ooa_ind_ignored": 5,
+     "ooa_multi_first": 5,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2120,
+     "allof_ind_nm": 2120,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2063,
+     "oao_multi_first": 150,
+     "oao_empty_false": 124,
+     "div0_zero": 133,
+     "regex_false": 93,
+     "pol_tind_dp": 236,
+     "pol_tind_na": 707,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 120,
+     "rule_tind_na": 221
+    },
+    "mutation_score": 1.0
+   },
+   "rulecov_gen_time": 89.04338832099984,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.11930926216640503,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      82
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "ooa_multi_first"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 0,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 19,
+     "pud_ind": 11,
+     "fa_continue_ind": 10,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 634,
+     "odo_legacy": 0,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.16
+   },
+   "random_gen_time": 0.8358517260003282,
+   "random": {
+    "n": 5096,
+    "coverage": 0.32574568288854006,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      168
+     ],
+     "comb-policy": [
+      820,
+      216
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 1,
+     "do_permit_first": 14,
+     "do_dp_as_d": 1,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 48,
+     "dup_ind": 73,
+     "pud_ind": 75,
+     "fa_continue_ind": 67,
+     "fa_ind_dp": 5,
+     "ooa_ind_ignored": 8,
+     "ooa_multi_first": 297,
+     "odo_legacy": 56,
+     "anyof_ind_nm": 98,
+     "allof_ind_nm": 98,
+     "target_ind_over_nm": 27,
+     "mbp_ignored": 98,
+     "oao_multi_first": 32,
+     "oao_empty_false": 55,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 9,
+     "pol_tind_na": 23,
+     "ps_tind_dp": 5,
+     "rule_cind_dp": 19,
+     "rule_tind_na": 29
+    },
+    "mutation_score": 0.88
+   },
+   "wall": 149.16182923299993
+  },
+  {
+   "seed": 19,
+   "gen_stats": {
+    "z3_calls": 2238,
+    "z3_time": 16.977702409998074,
+    "unsat": 964,
+    "tries": 2238,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 18.963227087999712
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 108,
+     "do_permit_first": 695,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 112,
+     "po_ignore_ip": 570,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 103,
+     "fa_ind_dp": 33,
+     "ooa_ind_ignored": 8,
+     "ooa_multi_first": 8,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2146,
+     "allof_ind_nm": 2146,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2064,
+     "oao_multi_first": 205,
+     "oao_empty_false": 119,
+     "div0_zero": 117,
+     "regex_false": 105,
+     "pol_tind_dp": 233,
+     "pol_tind_na": 731,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 117,
+     "rule_tind_na": 252
+    },
+    "mutation_score": 1.0
+   },
+   "rulecov_gen_time": 86.89463301099977,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.12951334379905807,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      95
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "ooa_multi_first",
+     "odo_legacy"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 25,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 4,
+     "pud_ind": 36,
+     "fa_continue_ind": 31,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 710,
+     "odo_legacy": 36,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.24
+   },
+   "random_gen_time": 0.9040837119996468,
+   "random": {
+    "n": 5096,
+    "coverage": 0.3492935635792779,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      176
+     ],
+     "comb-policy": [
+      820,
+      238
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 2,
+     "do_permit_first": 29,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 6,
+     "po_ignore_ip": 45,
+     "dup_ind": 86,
+     "pud_ind": 93,
+     "fa_continue_ind": 75,
+     "fa_ind_dp": 3,
+     "ooa_ind_ignored": 11,
+     "ooa_multi_first": 350,
+     "odo_legacy": 97,
+     "anyof_ind_nm": 104,
+     "allof_ind_nm": 104,
+     "target_ind_over_nm": 27,
+     "mbp_ignored": 104,
+     "oao_multi_first": 42,
+     "oao_empty_false": 61,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 6,
+     "pol_tind_na": 15,
+     "ps_tind_dp": 7,
+     "rule_cind_dp": 10,
+     "rule_tind_na": 49
+    },
+    "mutation_score": 0.88
+   },
+   "wall": 148.4064820489998
+  },
+  {
+   "seed": 20,
+   "gen_stats": {
+    "z3_calls": 2194,
+    "z3_time": 16.775889704983,
+    "unsat": 920,
+    "tries": 2194,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 18.773451979999663
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 115,
+     "do_permit_first": 684,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 108,
+     "po_ignore_ip": 562,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 123,
+     "fa_ind_dp": 36,
+     "ooa_ind_ignored": 8,
+     "ooa_multi_first": 5,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2170,
+     "allof_ind_nm": 2170,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2069,
+     "oao_multi_first": 142,
+     "oao_empty_false": 147,
+     "div0_zero": 110,
+     "regex_false": 129,
+     "pol_tind_dp": 242,
+     "pol_tind_na": 750,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 96,
+     "rule_tind_na": 229
+    },
+    "mutation_score": 1.0
+   },
+   "rulecov_gen_time": 92.96091852099971,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.12872841444270017,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      94
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "ooa_multi_first",
+     "odo_legacy"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 48,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 14,
+     "pud_ind": 29,
+     "fa_continue_ind": 26,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 770,
+     "odo_legacy": 11,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.24
+   },
+   "random_gen_time": 0.8163318060001075,
+   "random": {
+    "n": 5096,
+    "coverage": 0.3602825745682888,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      174
+     ],
+     "comb-policy": [
+      820,
+      254
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 2,
+     "do_permit_first": 42,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 1,
+     "po_ignore_ip": 53,
+     "dup_ind": 82,
+     "pud_ind": 89,
+     "fa_continue_ind": 47,
+     "fa_ind_dp": 2,
+     "ooa_ind_ignored": 5,
+     "ooa_multi_first": 364,
+     "odo_legacy": 104,
+     "anyof_ind_nm": 100,
+     "allof_ind_nm": 100,
+     "target_ind_over_nm": 32,
+     "mbp_ignored": 100,
+     "oao_multi_first": 38,
+     "oao_empty_false": 53,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 6,
+     "pol_tind_na": 15,
+     "ps_tind_dp": 12,
+     "rule_cind_dp": 8,
+     "rule_tind_na": 35
+    },
+    "mutation_score": 0.88
+   },
+   "wall": 154.40912961799995
+  },
+  {
+   "seed": 21,
+   "gen_stats": {
+    "z3_calls": 2116,
+    "z3_time": 17.121940671989705,
+    "unsat": 842,
+    "tries": 2116,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 19.23339284099984
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 109,
+     "do_permit_first": 667,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 107,
+     "po_ignore_ip": 572,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 98,
+     "fa_ind_dp": 45,
+     "ooa_ind_ignored": 8,
+     "ooa_multi_first": 5,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2124,
+     "allof_ind_nm": 2124,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2028,
+     "oao_multi_first": 224,
+     "oao_empty_false": 121,
+     "div0_zero": 109,
+     "regex_false": 110,
+     "pol_tind_dp": 220,
+     "pol_tind_na": 707,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 130,
+     "rule_tind_na": 224
+    },
+    "mutation_score": 1.0
+   },
+   "rulecov_gen_time": 88.06655666699999,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.12951334379905807,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      95
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "dup_ind",
+     "pud_ind",
+     "ooa_multi_first",
+     "odo_legacy"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 20,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 19,
+     "pud_ind": 12,
+     "fa_continue_ind": 0,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 843,
+     "odo_legacy": 11,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.2
+   },
+   "random_gen_time": 0.8521640730000399,
+   "random": {
+    "n": 5096,
+    "coverage": 0.34615384615384615,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      182
+     ],
+     "comb-policy": [
+      820,
+      228
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 3,
+     "do_permit_first": 24,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 1,
+     "po_ignore_ip": 30,
+     "dup_ind": 105,
+     "pud_ind": 83,
+     "fa_continue_ind": 88,
+     "fa_ind_dp": 5,
+     "ooa_ind_ignored": 9,
+     "ooa_multi_first": 316,
+     "odo_legacy": 54,
+     "anyof_ind_nm": 121,
+     "allof_ind_nm": 121,
+     "target_ind_over_nm": 25,
+     "mbp_ignored": 121,
+     "oao_multi_first": 35,
+     "oao_empty_false": 44,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 13,
+     "pol_tind_na": 18,
+     "ps_tind_dp": 4,
+     "rule_cind_dp": 18,
+     "rule_tind_na": 29
+    },
+    "mutation_score": 0.88
+   },
+   "wall": 149.3552318950001
+  },
+  {
+   "seed": 22,
+   "gen_stats": {
+    "z3_calls": 2248,
+    "z3_time": 17.852590933989177,
+    "unsat": 974,
+    "tries": 2248,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 19.95659395599978
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 104,
+     "do_permit_first": 686,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 111,
+     "po_ignore_ip": 566,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 114,
+     "fa_ind_dp": 32,
+     "ooa_ind_ignored": 5,
+     "ooa_multi_first": 2,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2134,
+     "allof_ind_nm": 2134,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2055,
+     "oao_multi_first": 184,
+     "oao_empty_false": 84,
+     "div0_zero": 105,
+     "regex_false": 98,
+     "pol_tind_dp": 237,
+     "pol_tind_na": 727,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 111,
+     "rule_tind_na": 227
+    },
+    "mutation_score": 1.0
+   },
+   "rulecov_gen_time": 87.92857518899973,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.1271585557299843,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      92
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "ooa_multi_first",
+     "odo_legacy"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 29,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 12,
+     "pud_ind": 27,
+     "fa_continue_ind": 1,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 708,
+     "odo_legacy": 24,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.24
+   },
+   "random_gen_time": 0.8444758559999173,
+   "random": {
+    "n": 5096,
+    "coverage": 0.34379905808477235,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      165
+     ],
+     "comb-policy": [
+      820,
+      242
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 30,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 3,
+     "po_ignore_ip": 50,
+     "dup_ind": 76,
+     "pud_ind": 113,
+     "fa_continue_ind": 59,
+     "fa_ind_dp": 2,
+     "ooa_ind_ignored": 14,
+     "ooa_multi_first": 355,
+     "odo_legacy": 53,
+     "anyof_ind_nm": 108,
+     "allof_ind_nm": 108,
+     "target_ind_over_nm": 21,
+     "mbp_ignored": 108,
+     "oao_multi_first": 46,
+     "oao_empty_false": 45,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 15,
+     "pol_tind_na": 31,
+     "ps_tind_dp": 9,
+     "rule_cind_dp": 23,
+     "rule_tind_na": 32
+    },
+    "mutation_score": 0.84
+   },
+   "wall": 150.68327453500024
+  },
+  {
+   "seed": 23,
+   "gen_stats": {
+    "z3_calls": 2249,
+    "z3_time": 17.04602389500269,
+    "unsat": 975,
+    "tries": 2249,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 19.029350199999953
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 115,
+     "do_permit_first": 689,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 121,
+     "po_ignore_ip": 573,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 93,
+     "fa_ind_dp": 37,
+     "ooa_ind_ignored": 8,
+     "ooa_multi_first": 2,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2188,
+     "allof_ind_nm": 2188,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2089,
+     "oao_multi_first": 146,
+     "oao_empty_false": 92,
+     "div0_zero": 123,
+     "regex_false": 117,
+     "pol_tind_dp": 230,
+     "pol_tind_na": 730,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 101,
+     "rule_tind_na": 232
+    },
+    "mutation_score": 1.0
+   },
+   "rulecov_gen_time": 86.77458562399988,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.12558869701726844,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      90
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "ooa_multi_first",
+     "odo_legacy"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 28,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 14,
+     "pud_ind": 40,
+     "fa_continue_ind": 23,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 626,
+     "odo_legacy": 9,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.24
+   },
+   "random_gen_time": 0.9647385039997971,
+   "random": {
+    "n": 5096,
+    "coverage": 0.34615384615384615,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      176
+     ],
+     "comb-policy": [
+      820,
+      234
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 4,
+     "do_permit_first": 49,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 2,
+     "po_ignore_ip": 53,
+     "dup_ind": 101,
+     "pud_ind": 114,
+     "fa_continue_ind": 95,
+     "fa_ind_dp": 8,
+     "ooa_ind_ignored": 8,
+     "ooa_multi_first": 328,
+     "odo_legacy": 66,
+     "anyof_ind_nm": 115,
+     "allof_ind_nm": 115,
+     "target_ind_over_nm": 27,
+     "mbp_ignored": 115,
+     "oao_multi_first": 39,
+     "oao_empty_false": 70,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 10,
+     "pol_tind_na": 16,
+     "ps_tind_dp": 8,
+     "rule_cind_dp": 19,
+     "rule_tind_na": 45
+    },
+    "mutation_score": 0.88
+   },
+   "wall": 149.13718718200016
+  },
+  {
+   "seed": 24,
+   "gen_stats": {
+    "z3_calls": 2151,
+    "z3_time": 18.753418601994326,
+    "unsat": 877,
+    "tries": 2151,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 21.084083859999737
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 113,
+     "do_permit_first": 695,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 101,
+     "po_ignore_ip": 568,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 99,
+     "fa_ind_dp": 37,
+     "ooa_ind_ignored": 5,
+     "ooa_multi_first": 1,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2099,
+     "allof_ind_nm": 2099,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2032,
+     "oao_multi_first": 193,
+     "oao_empty_false": 161,
+     "div0_zero": 155,
+     "regex_false": 95,
+     "pol_tind_dp": 229,
+     "pol_tind_na": 691,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 119,
+     "rule_tind_na": 208
+    },
+    "mutation_score": 1.0
+   },
+   "rulecov_gen_time": 87.96437007500026,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.12480376766091052,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      89
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "ooa_multi_first",
+     "odo_legacy"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 11,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 28,
+     "pud_ind": 9,
+     "fa_continue_ind": 21,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 556,
+     "odo_legacy": 15,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.24
+   },
+   "random_gen_time": 0.8533116640001026,
+   "random": {
+    "n": 5096,
+    "coverage": 0.36106750392464676,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      183
+     ],
+     "comb-policy": [
+      820,
+      246
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 1,
+     "do_permit_first": 39,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 2,
+     "po_ignore_ip": 38,
+     "dup_ind": 90,
+     "pud_ind": 91,
+     "fa_continue_ind": 78,
+     "fa_ind_dp": 6,
+     "ooa_ind_ignored": 3,
+     "ooa_multi_first": 184,
+     "odo_legacy": 47,
+     "anyof_ind_nm": 110,
+     "allof_ind_nm": 110,
+     "target_ind_over_nm": 44,
+     "mbp_ignored": 110,
+     "oao_multi_first": 32,
+     "oao_empty_false": 56,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 16,
+     "pol_tind_na": 17,
+     "ps_tind_dp": 15,
+     "rule_cind_dp": 22,
+     "rule_tind_na": 50
+    },
+    "mutation_score": 0.88
+   },
+   "wall": 154.06913061700016
+  },
+  {
+   "seed": 25,
+   "gen_stats": {
+    "z3_calls": 2231,
+    "z3_time": 16.67945344401096,
+    "unsat": 957,
+    "tries": 2231,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 18.705958761999682
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 112,
+     "do_permit_first": 686,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 107,
+     "po_ignore_ip": 564,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 118,
+     "fa_ind_dp": 37,
+     "ooa_ind_ignored": 5,
+     "ooa_multi_first": 5,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2109,
+     "allof_ind_nm": 2109,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2051,
+     "oao_multi_first": 204,
+     "oao_empty_false": 108,
+     "div0_zero": 96,
+     "regex_false": 96,
+     "pol_tind_dp": 232,
+     "pol_tind_na": 718,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 110,
+     "rule_tind_na": 222
+    },
+    "mutation_score": 1.0
+   },
+   "rulecov_gen_time": 90.69288114899973,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.12244897959183673,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      86
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "ooa_multi_first",
+     "odo_legacy"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 8,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 11,
+     "pud_ind": 25,
+     "fa_continue_ind": 6,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 661,
+     "odo_legacy": 4,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.24
+   },
+   "random_gen_time": 0.8108391189998656,
+   "random": {
+    "n": 5096,
+    "coverage": 0.3563579277864992,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      183
+     ],
+     "comb-policy": [
+      820,
+      240
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 1,
+     "do_permit_first": 28,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 1,
+     "po_ignore_ip": 39,
+     "dup_ind": 89,
+     "pud_ind": 76,
+     "fa_continue_ind": 56,
+     "fa_ind_dp": 4,
+     "ooa_ind_ignored": 9,
+     "ooa_multi_first": 387,
+     "odo_legacy": 69,
+     "anyof_ind_nm": 96,
+     "allof_ind_nm": 96,
+     "target_ind_over_nm": 32,
+     "mbp_ignored": 96,
+     "oao_multi_first": 29,
+     "oao_empty_false": 51,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 25,
+     "pol_tind_na": 22,
+     "ps_tind_dp": 6,
+     "rule_cind_dp": 21,
+     "rule_tind_na": 21
+    },
+    "mutation_score": 0.88
+   },
+   "wall": 151.61979901699988
+  },
+  {
+   "seed": 26,
+   "gen_stats": {
+    "z3_calls": 2167,
+    "z3_time": 16.01858739098543,
+    "unsat": 893,
+    "tries": 2167,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 17.976038372999938
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 109,
+     "do_permit_first": 684,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 107,
+     "po_ignore_ip": 571,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 117,
+     "fa_ind_dp": 37,
+     "ooa_ind_ignored": 8,
+     "ooa_multi_first": 2,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2155,
+     "allof_ind_nm": 2155,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2053,
+     "oao_multi_first": 176,
+     "oao_empty_false": 98,
+     "div0_zero": 132,
+     "regex_false": 102,
+     "pol_tind_dp": 233,
+     "pol_tind_na": 751,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 102,
+     "rule_tind_na": 223
+    },
+    "mutation_score": 1.0
+   },
+   "rulecov_gen_time": 83.29914914499977,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.12872841444270017,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      94
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "ooa_multi_first",
+     "odo_legacy"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 11,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 30,
+     "pud_ind": 22,
+     "fa_continue_ind": 12,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 855,
+     "odo_legacy": 14,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.24
+   },
+   "random_gen_time": 0.8775519000000713,
+   "random": {
+    "n": 5096,
+    "coverage": 0.3532182103610675,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      177
+     ],
+     "comb-policy": [
+      820,
+      242
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 3,
+     "do_permit_first": 48,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 46,
+     "dup_ind": 87,
+     "pud_ind": 70,
+     "fa_continue_ind": 65,
+     "fa_ind_dp": 13,
+     "ooa_ind_ignored": 9,
+     "ooa_multi_first": 259,
+     "odo_legacy": 74,
+     "anyof_ind_nm": 121,
+     "allof_ind_nm": 121,
+     "target_ind_over_nm": 28,
+     "mbp_ignored": 121,
+     "oao_multi_first": 29,
+     "oao_empty_false": 56,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 17,
+     "pol_tind_na": 20,
+     "ps_tind_dp": 7,
+     "rule_cind_dp": 38,
+     "rule_tind_na": 36
+    },
+    "mutation_score": 0.84
+   },
+   "wall": 143.81439868500001
+  },
+  {
+   "seed": 27,
+   "gen_stats": {
+    "z3_calls": 2087,
+    "z3_time": 16.325959646007504,
+    "unsat": 813,
+    "tries": 2087,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 18.393791950000377
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 108,
+     "do_permit_first": 681,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 102,
+     "po_ignore_ip": 574,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 96,
+     "fa_ind_dp": 32,
+     "ooa_ind_ignored": 5,
+     "ooa_multi_first": 1,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2121,
+     "allof_ind_nm": 2121,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2057,
+     "oao_multi_first": 193,
+     "oao_empty_false": 113,
+     "div0_zero": 116,
+     "regex_false": 85,
+     "pol_tind_dp": 240,
+     "pol_tind_na": 747,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 103,
+     "rule_tind_na": 207
+    },
+    "mutation_score": 1.0
+   },
+   "rulecov_gen_time": 81.48418576299991,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.12872841444270017,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      94
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "ooa_multi_first",
+     "odo_legacy"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 41,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 19,
+     "pud_ind": 44,
+     "fa_continue_ind": 19,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 720,
+     "odo_legacy": 4,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.24
+   },
+   "random_gen_time": 0.7490643050000472,
+   "random": {
+    "n": 5096,
+    "coverage": 0.3328100470957614,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      164
+     ],
+     "comb-policy": [
+      820,
+      229
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 1,
+     "do_permit_first": 29,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 1,
+     "po_ignore_ip": 46,
+     "dup_ind": 94,
+     "pud_ind": 77,
+     "fa_continue_ind": 61,
+     "fa_ind_dp": 19,
+     "ooa_ind_ignored": 5,
+     "ooa_multi_first": 362,
+     "odo_legacy": 70,
+     "anyof_ind_nm": 83,
+     "allof_ind_nm": 83,
+     "target_ind_over_nm": 30,
+     "mbp_ignored": 83,
+     "oao_multi_first": 42,
+     "oao_empty_false": 61,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 10,
+     "pol_tind_na": 9,
+     "ps_tind_dp": 10,
+     "rule_cind_dp": 14,
+     "rule_tind_na": 39
+    },
+    "mutation_score": 0.88
+   },
+   "wall": 140.6805762240001
+  },
+  {
+   "seed": 28,
+   "gen_stats": {
+    "z3_calls": 2191,
+    "z3_time": 18.27245818900201,
+    "unsat": 917,
+    "tries": 2191,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 20.503383057000065
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 109,
+     "do_permit_first": 691,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 112,
+     "po_ignore_ip": 571,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 99,
+     "fa_ind_dp": 46,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 5,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2151,
+     "allof_ind_nm": 2151,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2081,
+     "oao_multi_first": 152,
+     "oao_empty_false": 140,
+     "div0_zero": 118,
+     "regex_false": 93,
+     "pol_tind_dp": 229,
+     "pol_tind_na": 756,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 114,
+     "rule_tind_na": 227
+    },
+    "mutation_score": 0.96
+   },
+   "rulecov_gen_time": 89.24749919599981,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.13186813186813187,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      98
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "ooa_multi_first",
+     "odo_legacy"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 16,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 11,
+     "pud_ind": 13,
+     "fa_continue_ind": 39,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 709,
+     "odo_legacy": 11,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.24
+   },
+   "random_gen_time": 1.0462837029999719,
+   "random": {
+    "n": 5096,
+    "coverage": 0.35478806907378335,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      177
+     ],
+     "comb-policy": [
+      820,
+      244
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 3,
+     "do_permit_first": 52,
+     "do_dp_as_d": 1,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 28,
+     "dup_ind": 108,
+     "pud_ind": 61,
+     "fa_continue_ind": 104,
+     "fa_ind_dp": 3,
+     "ooa_ind_ignored": 4,
+     "ooa_multi_first": 229,
+     "odo_legacy": 113,
+     "anyof_ind_nm": 125,
+     "allof_ind_nm": 125,
+     "target_ind_over_nm": 18,
+     "mbp_ignored": 125,
+     "oao_multi_first": 40,
+     "oao_empty_false": 56,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 9,
+     "pol_tind_na": 30,
+     "ps_tind_dp": 3,
+     "rule_cind_dp": 15,
+     "rule_tind_na": 44
+    },
+    "mutation_score": 0.88
+   },
+   "wall": 153.00947541799997
+  },
+  {
+   "seed": 29,
+   "gen_stats": {
+    "z3_calls": 2219,
+    "z3_time": 19.202600997005902,
+    "unsat": 945,
+    "tries": 2219,
+    "failed_goals": [],
+    "goals": 1274,
+    "gen_time": 21.49507658099992
+   },
+   "semcov": {
+    "n": 5096,
+    "coverage": 1.0,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      411
+     ],
+     "comb-policy": [
+      820,
+      820
+     ],
+     "src": [
+      10,
+      10
+     ],
+     "tgt": [
+      21,
+      21
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "do_dp_as_d",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "div0_zero",
+     "regex_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 114,
+     "do_permit_first": 670,
+     "do_dp_as_d": 16,
+     "po_errP_deny": 104,
+     "po_ignore_ip": 576,
+     "dup_ind": 200,
+     "pud_ind": 200,
+     "fa_continue_ind": 83,
+     "fa_ind_dp": 28,
+     "ooa_ind_ignored": 5,
+     "ooa_multi_first": 4,
+     "odo_legacy": 200,
+     "anyof_ind_nm": 2135,
+     "allof_ind_nm": 2135,
+     "target_ind_over_nm": 6,
+     "mbp_ignored": 2074,
+     "oao_multi_first": 179,
+     "oao_empty_false": 107,
+     "div0_zero": 117,
+     "regex_false": 92,
+     "pol_tind_dp": 247,
+     "pol_tind_na": 763,
+     "ps_tind_dp": 354,
+     "rule_cind_dp": 104,
+     "rule_tind_na": 188
+    },
+    "mutation_score": 1.0
+   },
+   "rulecov_gen_time": 92.11507930200014,
+   "rulecov": {
+    "n": 5096,
+    "coverage": 0.130298273155416,
+    "by_family": {
+     "rule": [
+      12,
+      8
+     ],
+     "comb-rule": [
+      411,
+      54
+     ],
+     "comb-policy": [
+      820,
+      96
+     ],
+     "src": [
+      10,
+      0
+     ],
+     "tgt": [
+      21,
+      8
+     ]
+    },
+    "killed": [
+     "do_permit_first",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "ooa_multi_first",
+     "odo_legacy"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 0,
+     "do_permit_first": 21,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 0,
+     "po_ignore_ip": 0,
+     "dup_ind": 33,
+     "pud_ind": 15,
+     "fa_continue_ind": 7,
+     "fa_ind_dp": 0,
+     "ooa_ind_ignored": 0,
+     "ooa_multi_first": 771,
+     "odo_legacy": 15,
+     "anyof_ind_nm": 0,
+     "allof_ind_nm": 0,
+     "target_ind_over_nm": 0,
+     "mbp_ignored": 0,
+     "oao_multi_first": 0,
+     "oao_empty_false": 0,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 0,
+     "pol_tind_na": 0,
+     "ps_tind_dp": 0,
+     "rule_cind_dp": 0,
+     "rule_tind_na": 0
+    },
+    "mutation_score": 0.24
+   },
+   "random_gen_time": 0.8683739580001202,
+   "random": {
+    "n": 5096,
+    "coverage": 0.36813186813186816,
+    "by_family": {
+     "rule": [
+      12,
+      12
+     ],
+     "comb-rule": [
+      411,
+      183
+     ],
+     "comb-policy": [
+      820,
+      255
+     ],
+     "src": [
+      10,
+      5
+     ],
+     "tgt": [
+      21,
+      14
+     ]
+    },
+    "killed": [
+     "do_errD_permit",
+     "do_permit_first",
+     "po_errP_deny",
+     "po_ignore_ip",
+     "dup_ind",
+     "pud_ind",
+     "fa_continue_ind",
+     "fa_ind_dp",
+     "ooa_ind_ignored",
+     "ooa_multi_first",
+     "odo_legacy",
+     "anyof_ind_nm",
+     "allof_ind_nm",
+     "target_ind_over_nm",
+     "mbp_ignored",
+     "oao_multi_first",
+     "oao_empty_false",
+     "pol_tind_dp",
+     "pol_tind_na",
+     "ps_tind_dp",
+     "rule_cind_dp",
+     "rule_tind_na"
+    ],
+    "kill_tests": {
+     "do_errD_permit": 3,
+     "do_permit_first": 29,
+     "do_dp_as_d": 0,
+     "po_errP_deny": 3,
+     "po_ignore_ip": 45,
+     "dup_ind": 100,
+     "pud_ind": 86,
+     "fa_continue_ind": 48,
+     "fa_ind_dp": 8,
+     "ooa_ind_ignored": 15,
+     "ooa_multi_first": 400,
+     "odo_legacy": 64,
+     "anyof_ind_nm": 101,
+     "allof_ind_nm": 101,
+     "target_ind_over_nm": 42,
+     "mbp_ignored": 101,
+     "oao_multi_first": 36,
+     "oao_empty_false": 51,
+     "div0_zero": 0,
+     "regex_false": 0,
+     "pol_tind_dp": 18,
+     "pol_tind_na": 24,
+     "ps_tind_dp": 9,
+     "rule_cind_dp": 18,
+     "rule_tind_na": 29
+    },
+    "mutation_score": 0.88
+   },
+   "wall": 154.92328989599991
+  }
+ ]
+}
