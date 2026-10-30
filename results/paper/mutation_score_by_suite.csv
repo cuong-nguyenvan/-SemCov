@@ -1,0 +1,5 @@
+suite,mutation score (mean ± sd),range
+Semantics coverage,0.999 ± 0.007,0.96-1.00
+Random,0.868 ± 0.026,0.80-0.92
+Rule coverage (X-PTG style),0.231 ± 0.023,0.16-0.24
+OASIS conformance suite,0.480,-

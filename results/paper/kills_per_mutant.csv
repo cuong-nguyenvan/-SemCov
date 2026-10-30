@@ -1,0 +1,26 @@
+mutant,class,description,semantics coverage (/30),random (/30),rule cov (/30),OASIS CT
+do_errD_permit,F1,deny-overrides: Ind{D} with Permit/Ind{P} returns Ind{D} instead of Ind{DP},30,26,0,no
+do_permit_first,F1,deny-overrides: Permit checked before pending Indeterminate flags,30,30,29,no
+do_dp_as_d,F1,deny-overrides: Ind{DP} child treated as Ind{D},30,3,0,no
+po_errP_deny,F1,permit-overrides: Ind{P} with Deny/Ind{D} returns Ind{P} instead of Ind{DP},30,24,0,no
+po_ignore_ip,F1,permit-overrides: Ind{P} child ignored (treated as NotApplicable),30,30,0,yes
+dup_ind,F1,deny-unless-permit: Indeterminate child propagated instead of Deny,30,30,28,yes
+pud_ind,F1,permit-unless-deny: Indeterminate child propagated instead of Permit,30,30,29,yes
+fa_continue_ind,F1,first-applicable: continues after an Indeterminate child,30,30,28,yes
+fa_ind_dp,F1,first-applicable: returns Ind{DP} instead of the child's Indeterminate,30,30,0,no
+ooa_ind_ignored,F1,only-one-applicable: Indeterminate child target treated as NoMatch,29,30,0,no
+ooa_multi_first,F1,only-one-applicable: >1 applicable returns first applicable,30,30,30,yes
+odo_legacy,F1,ordered-deny-overrides implemented with XACML 1.0 semantics,30,30,29,yes
+anyof_ind_nm,F2,AnyOf: Indeterminate AllOf treated as NoMatch,30,30,0,yes
+allof_ind_nm,F2,AllOf: Indeterminate Match treated as NoMatch,30,30,0,yes
+target_ind_over_nm,F2,Target: Indeterminate AnyOf dominates NoMatch,30,30,0,no
+mbp_ignored,F3,MustBePresent ignored (missing attribute gives empty bag),30,30,0,yes
+oao_multi_first,F3,*-one-and-only on a multi-valued bag returns the first value,30,30,0,yes
+oao_empty_false,F3,*-one-and-only on an empty bag makes the condition false,30,30,0,yes
+div0_zero,F3,division by zero returns 0,30,0,0,no
+regex_false,F3,invalid regular expression evaluates to false,30,0,0,no
+pol_tind_dp,F4,Policy target Indeterminate always gives Ind{DP} (XACML 2.0 behaviour),30,30,0,no
+pol_tind_na,F4,Policy target Indeterminate gives NotApplicable,30,30,0,no
+ps_tind_dp,F4,PolicySet target Indeterminate always gives Ind{DP},30,28,0,no
+rule_cind_dp,F4,Rule condition Indeterminate gives Ind{DP} instead of Ind{effect},30,30,0,no
+rule_tind_na,F4,Rule target Indeterminate gives NotApplicable,30,30,0,yes

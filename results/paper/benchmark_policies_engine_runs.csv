@@ -1,0 +1,7 @@
+engine,suite,tests,discrepancies,defects (policies affected),unexplained
+balana,random,736,5,B3 (1),0
+balana,rulecov,1141,0,-,0
+balana,semcov,736,61,"B1 (4), B3 (1), B4 (4)",0
+openaz,random,736,86,"O1 (5), O3 (1), O8 (1)",0
+openaz,rulecov,1141,6,"O1 (1), O8 (1)",0
+openaz,semcov,736,72,"O1 (5), O2 (4), O3 (10), O8 (1)",0

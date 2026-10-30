@@ -1,0 +1,20 @@
+family,level,algorithm,raw goals,reduced goals,reduction
+rule,-,-,24,12,50.0%
+comb,rule,DO,96,65,32.3%
+comb,rule,PO,96,65,32.3%
+comb,rule,ODO,96,65,32.3%
+comb,rule,OPO,96,65,32.3%
+comb,rule,DUP,96,65,32.3%
+comb,rule,PUD,96,65,32.3%
+comb,rule,FA,978,21,97.9%
+comb,policy,DO,192,129,32.8%
+comb,policy,PO,192,129,32.8%
+comb,policy,ODO,192,129,32.8%
+comb,policy,OPO,192,129,32.8%
+comb,policy,DUP,192,129,32.8%
+comb,policy,PUD,192,129,32.8%
+comb,policy,FA,5871,25,99.6%
+comb,policy,OOA,21,21,0.0%
+src,-,-,16,10,37.5%
+tgt,-,-,21,21,0.0%
+total,,,8659,1274,85.3%

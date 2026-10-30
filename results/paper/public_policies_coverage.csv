@@ -1,0 +1,4 @@
+suite,tests,goal instances covered,share of union (%)
+Semantics coverage,2456,1531,95.0
+Rule coverage,131,453,28.1
+Random (same budget),2456,901.6,55.9

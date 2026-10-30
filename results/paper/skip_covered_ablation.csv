@@ -1,0 +1,23 @@
+policy,tests (skip),tests (all instances),goals (skip),goals (all instances),goals lost by skipping,time skip (s),time all (s)
+HL7,52,316,36,36,0,1.4,1.8
+Simpson1,40,72,29,29,0,0.3,0.3
+Simpson2,72,96,43,43,0,0.3,0.4
+conference3-dup,16,168,27,28,1,0.7,1.2
+conference3-fa-wdeny,24,172,37,38,1,0.4,0.7
+conference3-pud,16,168,25,26,1,0.8,1.0
+conference3,16,168,30,31,1,0.8,1.3
+fedora-rule3-po,24,56,39,40,1,0.2,0.4
+fedora-rule3,72,212,61,62,1,1.4,2.3
+itrust3,20,756,32,32,0,3.3,8.9
+kmarket-blue-policy,60,104,55,55,0,0.4,0.4
+kmarket-gold-policy,56,88,51,51,0,0.2,0.3
+kmarket-sliver-policy,52,112,51,51,0,0.3,0.4
+obligation3,28,40,34,35,1,29.3,41.2
+pluto3,16,260,32,34,2,4.1,8.0
+college-a,8,84,23,24,1,0.4,0.5
+college-b,8,116,23,24,1,0.6,1.1
+college-c,4,144,21,24,3,1.0,1.7
+college-d,4,188,21,24,3,1.5,1.6
+mg1-simple-policy,12,52,23,24,1,0.2,0.5
+sun-cond-1,20,32,27,27,0,0.1,0.1
+total,620,3404,720,738,18,47.6,74.1

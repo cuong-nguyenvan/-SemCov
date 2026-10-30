@@ -1,0 +1,12 @@
+suite,verdict,tests,tests needing manual judgement (mean ± sd),defects found per seed (mean ± sd),defects found in ≥1 seed (of 13),never found
+Semantics coverage,oracle,5096,0 (oracle decides),12.2 ± 1.1,13,-
+Semantics coverage,differential,5096,2127 ± 15,10.0 ± 1.0,11,"B7, B8"
+Semantics coverage,differential + crash,5096,2425 ± 17,11.2 ± 1.1,12,B7
+Rule coverage,oracle,5096,0 (oracle decides),1.0 ± 0.0,1,"B1, B2, B3, B4, B6, B7, B8, O1, O2, O3, O5, O6"
+Rule coverage,differential,5096,61 ± 10,1.0 ± 0.0,1,"B1, B2, B3, B4, B6, B7, B8, O1, O2, O3, O5, O6"
+Random,oracle,5096,0 (oracle decides),9.4 ± 0.9,10,"B2, B8, O5"
+Random 1x,differential,5096,1709 ± 61,8.4 ± 0.5,9,"B2, B7, B8, O5"
+Random 2x,differential,10192,3525 ± 143,9.2 ± 0.4,10,"B7, B8, O5"
+Random 5x,differential,25480,8653 ± 312,9.4 ± 0.5,10,"B7, B8, O5"
+Random 10x,differential,50960,17333 ± 381,9.6 ± 0.5,10,"B7, B8, O5"
+Random 10x,differential + crash,50960,17333 ± 381,9.6 ± 0.5,10,"B7, B8, O5"

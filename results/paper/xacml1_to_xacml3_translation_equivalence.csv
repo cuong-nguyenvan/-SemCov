@@ -1,0 +1,9 @@
+policy (XACML 1.0 source),requests compared,not comparable,Balana 1.0 = Balana 3.0,Balana 1.0 = oracle on 3.0,decision mix
+continue-a,300,0,300,300,"D=149, NA=128, P=23"
+continue-b,300,0,300,300,"D=149, NA=128, P=23"
+college-a,300,0,300,300,"NA=280, P=20"
+college-b,300,0,300,300,"NA=285, P=15"
+college-c,300,0,300,300,"NA=290, P=10"
+college-d,300,0,300,300,"NA=282, P=18"
+mg1-simple-policy,300,0,300,300,"NA=280, P=20"
+sun-cond-1,272,28,272,272,"IND=17, NA=255"

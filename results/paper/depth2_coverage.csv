@@ -1,0 +1,5 @@
+suite,tests,depth-2 coverage (%)
+Depth-2 suite,3472,100.0 ± 0.0
+Depth-1 semantics-coverage suite,5096,42.2 ± 0.2
+Random,5096,52.4 ± 1.1
+Rule coverage,5096,31.3 ± 0.6

@@ -1,0 +1,5 @@
+metric,comparison,Wilcoxon p,A12,effect size
+coverage,semantics coverage vs Random,1.72e-06,1.000,large
+coverage,semantics coverage vs Rule coverage (X-PTG style),1.67e-06,1.000,large
+mutation_score,semantics coverage vs Random,6.87e-07,1.000,large
+mutation_score,semantics coverage vs Rule coverage (X-PTG style),3.34e-07,1.000,large

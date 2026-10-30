@@ -1,0 +1,7 @@
+engine,suite,tests,discrepancies,unexplained,defects (policies affected)
+balana,semcov,2456,224,0,B1: 10 pol.; B4: 10 pol.; B7: 1 pol.; load: Error parsing required attribute RuleId: 1 pol.; load: Unknown FunctionId: 1 pol.
+openaz,semcov,2456,279,0,O1: 33 pol.; O2: 11 pol.; O3: 7 pol.; O7: 6 pol.
+balana,rulecov,131,4,0,load: Error parsing required attribute RuleId: 1 pol.; load: Unknown FunctionId: 1 pol.
+openaz,rulecov,131,32,0,O1: 11 pol.; O7: 6 pol.
+balana,random,2456,96,0,B7: 1 pol.; load: Error parsing required attribute RuleId: 1 pol.; load: Unknown FunctionId: 1 pol.
+openaz,random,2456,790,0,O1: 33 pol.; O2: 1 pol.; O7: 6 pol.

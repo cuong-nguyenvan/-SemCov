@@ -1,0 +1,16 @@
+engine,id,class,defect,semcov,random,rule cov.
+balana,B1,F4,DO policy alg: child with Indeterminate target -> Deny,5/5,5/5,0/5
+balana,B2,F1,DO policy alg: && instead of ||,5/5,0/5,0/5
+balana,B3,F1,PO rule alg: no Ind{D} branch,5/5,5/5,0/5
+balana,B4,F4,PO policy alg: child with Indeterminate target skipped,5/5,5/5,0/5
+balana,B5,F4,plain Indeterminate ignored by 3.0 parents,5/5,5/5,5/5
+balana,B6,F4,FA policy alg: target Ind -> Ind even if NA,3/5,3/5,0/5
+balana,B7,F4,root target Ind -> Ind even if NA,5/5,4/5,0/5
+balana,B8,F3,invalid regex: uncaught exception,5/5,0/5,0/5
+openaz,O1,F4,root target NoMatch -> Indeterminate,5/5,5/5,0/5
+openaz,O2,F4,"policy/policy-set target Ind -> Ind{DP}, children ignored",5/5,5/5,0/5
+openaz,O3,F4,rule target/condition Ind -> Ind{DP} (no Ind{P}/Ind{D}),5/5,5/5,0/5
+openaz,O5,F3,invalid regex: uncaught exception,5/5,0/5,0/5
+openaz,O6,F2,Target returns first non-Match AnyOf (order dependent),3/5,5/5,0/5
+openaz,O7,F3,regexp-match anchored (String.matches),0/5,0/5,0/5
+openaz,O8,F3,any-of-any: empty bag -> processing error,0/5,0/5,0/5

@@ -1,0 +1,9 @@
+id,component,class,defect,semantics coverage (seeds),random (seeds),rule cov (seeds),OASIS CT,failing tests per semantics-coverage suite (held-out mean)
+B1,xacml3.DenyOverridesPolicyAlg,F4,child policy with Indeterminate target makes the policy set return Deny,5/5,5/5,0/5,0/1,1358
+B2,xacml3.DenyOverridesPolicyAlg,F1,"'errD && (errP && permit)' instead of '||': Ind{D}+Permit/Ind{P} gives Ind{D}, not Ind{DP}",5/5,0/5,0/5,0/1,8
+B3,xacml3.PermitOverridesRuleAlg,F1,no Indeterminate{D} branch: an erroring Deny rule is reported as NotApplicable,5/5,5/5,0/5,0/1,21
+B4,xacml3.PermitOverridesPolicyAlg,F4,child policy with Indeterminate target is skipped (treated as NotApplicable),5/5,5/5,0/5,0/1,362
+B5,xacml2 FA/OOA policy algs + xacml3 parents,F4,plain (non-extended) Indeterminate from first-/only-one-applicable is ignored by deny-/permit-overrides parents,5/5,5/5,5/5,0/1,8
+B6,xacml2.FirstApplicablePolicyAlg,F4,child target Indeterminate returns Indeterminate even when the child's rules give NotApplicable,3/5,3/5,0/5,0/1,2
+B7,PolicyFinder (top level),F4,root target Indeterminate gives Indeterminate even when the rules give NotApplicable,5/5,4/5,0/5,0/1,23
+B8,cond.MatchFunction (regexp),F3,invalid regular expression throws an uncaught PatternSyntaxException: no response,5/5,0/5,0/5,0/1,296

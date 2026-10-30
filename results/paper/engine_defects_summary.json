@@ -1,0 +1,144 @@
+{
+ "suites": {
+  "semcov_s0": [
+   5096,
+   2052
+  ],
+  "random_s0": [
+   5096,
+   57
+  ],
+  "rulecov_s0": [
+   5096,
+   55
+  ],
+  "semcov_s1": [
+   5096,
+   2062
+  ],
+  "random_s1": [
+   5096,
+   127
+  ],
+  "rulecov_s1": [
+   5096,
+   61
+  ],
+  "semcov_s2": [
+   5096,
+   2064
+  ],
+  "random_s2": [
+   5096,
+   78
+  ],
+  "rulecov_s2": [
+   5096,
+   51
+  ],
+  "semcov_s3": [
+   5096,
+   2061
+  ],
+  "random_s3": [
+   5096,
+   48
+  ],
+  "rulecov_s3": [
+   5096,
+   63
+  ],
+  "semcov_s4": [
+   5096,
+   2104
+  ],
+  "random_s4": [
+   5096,
+   108
+  ],
+  "rulecov_s4": [
+   5096,
+   77
+  ]
+ },
+ "impact": {
+  "B8": {
+   "no response (crash)": 1488
+  },
+  "B7": {
+   "spurious Indeterminate": 134
+  },
+  "B1": {
+   "Permit lost (wrongful Deny)": 1339,
+   "Indeterminate/NA becomes Deny": 5507
+  },
+  "B4": {
+   "Indeterminate/NA becomes Deny": 1751,
+   "error hidden as NotApplicable": 83,
+   "unauthorized Permit": 23
+  },
+  "B3": {
+   "error hidden as NotApplicable": 105,
+   "unauthorized Permit": 63,
+   "Indeterminate/NA becomes Deny": 10,
+   "spurious Indeterminate": 2,
+   "Permit lost (wrongful Deny)": 1
+  },
+  "B2": {
+   "Indeterminate/NA becomes Deny": 43
+  },
+  "B5": {
+   "unauthorized Permit": 156,
+   "error hidden as NotApplicable": 248,
+   "Indeterminate/NA becomes Deny": 135
+  },
+  "B6": {
+   "unauthorized Permit": 4,
+   "error hidden as NotApplicable": 9,
+   "Indeterminate/NA becomes Deny": 3,
+   "spurious Indeterminate": 5
+  }
+ },
+ "detected": {
+  "B1": {
+   "semcov": 5,
+   "random": 5,
+   "rulecov": 0
+  },
+  "B2": {
+   "semcov": 5,
+   "random": 0,
+   "rulecov": 0
+  },
+  "B3": {
+   "semcov": 5,
+   "random": 5,
+   "rulecov": 0
+  },
+  "B4": {
+   "semcov": 5,
+   "random": 5,
+   "rulecov": 0
+  },
+  "B5": {
+   "semcov": 5,
+   "random": 5,
+   "rulecov": 5
+  },
+  "B6": {
+   "semcov": 3,
+   "random": 3,
+   "rulecov": 0
+  },
+  "B7": {
+   "semcov": 5,
+   "random": 4,
+   "rulecov": 0
+  },
+  "B8": {
+   "semcov": 5,
+   "random": 0,
+   "rulecov": 0
+  }
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "P1_minimal_distinguishing_sets": [
+  "bc"
+ ],
+ "P1_signature_abc": {
+  "P": [
+   "P",
+   "P",
+   "P"
+  ],
+  "D": [
+   "D",
+   "D",
+   "D"
+  ],
+  "NA": [
+   "NA",
+   "D",
+   "P"
+  ],
+  "ID": [
+   "IND",
+   "D",
+   "IND"
+  ],
+  "IP": [
+   "IND",
+   "IND",
+   "P"
+  ],
+  "IDP": [
+   "IND",
+   "IND",
+   "IND"
+  ]
+ },
+ "P2_ignored_by_parent_minimal_detecting_sets": [
+  "d",
+  "bc"
+ ],
+ "P2_ignored_by_parent_abc_detects": true,
+ "P2_collapsed_to_DP_minimal_detecting_sets": [
+  "bc"
+ ],
+ "P2_collapsed_to_DP_abc_detects": true,
+ "P3_closed_form_matches": true,
+ "P4_duality_and_order_independence": {
+  "cases": 1555,
+  "violations": 0
+ },
+ "P2b_subtype_robust_minimal_sets": [
+  "d"
+ ],
+ "P2b_abc_robust": false
+}

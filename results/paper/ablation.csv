@@ -1,0 +1,11 @@
+variant,tests,coverage (%),mutation score,Balana defects (all 5 seeds),OpenAZ defects (all 5 seeds)
+Full suite (4 contexts),5096,100.0,0.999,7/8,4/5
+Context a only,1274,100.0,0.939,5/8,4/5
+"Contexts a, b, c",3822,100.0,0.999,7/8,4/5
+Without policy-combining goals,1816,37.1,0.880,5/8,4/5
+Without rule-combining goals,3452,71.4,0.999,7/8,4/5
+Without target-table goals,5012,99.1,0.959,7/8,4/5
+Without Indeterminate-source goals,5056,99.8,0.999,7/8,4/5
+Without rule-table goals,5048,100.0,0.999,7/8,4/5
+Greedy-minimised (coverage only),1181,100.0,0.937,5/8,4/5
+Random values instead of Z3,4862,95.4,0.999,n/a,n/a

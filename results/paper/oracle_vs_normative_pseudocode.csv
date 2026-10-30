@@ -1,0 +1,8 @@
+normative artefact,input vectors,mismatches
+deny-overrides,9331,0
+permit-overrides,9331,0
+deny-unless-permit,9331,0
+permit-unless-deny,9331,0
+first-applicable,9331,0
+table5-target-indeterminate,6,0
+table4-rule,6,0

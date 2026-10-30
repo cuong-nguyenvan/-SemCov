@@ -1,0 +1,9 @@
+baseline,budget (x semantics-coverage suite),tests,coverage (%),mutation score
+random,1,5096,34.7,0.888
+random,2,10192,42.7,0.888
+random,5,25480,53.8,0.896
+random,10,50960,61.6,0.920
+rulecov,1,5096,12.5,0.232
+rulecov,2,10192,13.3,0.240
+rulecov,5,25480,13.8,0.240
+rulecov,10,50960,13.8,0.240

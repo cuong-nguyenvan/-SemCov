@@ -1,0 +1,4 @@
+suite,common-mode failing tests per seed,defects involved (seeds)
+semcov,321 ± 10,"B3 (2/5), B7 (5/5), B8 (5/5), O2 (5/5), O3 (2/5), O5 (5/5)"
+random 1x,5 ± 4,"B6 (3/5), B7 (4/5), O2 (4/5)"
+random 10x,62 ± 15,"B1 (4/5), B6 (5/5), B7 (5/5), O2 (5/5), O3 (1/5)"
