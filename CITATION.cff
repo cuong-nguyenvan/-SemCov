@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the paper."
+title: "Semantics-Coverage-Driven Conformance Testing of XACML 3.0 Policy Decision Points - replication package"
+type: software
+authors:
+  - family-names: "TODO"
+    given-names: "TODO"
+license: MIT
+repository-code: "https://github.com/TODO/xacml-semcov"
+version: "1.0.0"
+date-released: "2026-10-10"
+preferred-citation:
+  type: article
+  title: "Semantics-Coverage-Driven Conformance Testing of XACML 3.0 Policy Decision Points"
+  authors:
+    - family-names: "TODO"
+      given-names: "TODO"
+  status: submitted
