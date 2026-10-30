@@ -1,0 +1,281 @@
+### T2_goal_universe
+
+| family | level | algorithm | raw goals | reduced goals | reduction |
+|---|---|---|---|---|---|
+| rule | - | - | 24 | 12 | 50.0% |
+| comb | rule | DO | 96 | 65 | 32.3% |
+| comb | rule | PO | 96 | 65 | 32.3% |
+| comb | rule | ODO | 96 | 65 | 32.3% |
+| comb | rule | OPO | 96 | 65 | 32.3% |
+| comb | rule | DUP | 96 | 65 | 32.3% |
+| comb | rule | PUD | 96 | 65 | 32.3% |
+| comb | rule | FA | 978 | 21 | 97.9% |
+| comb | policy | DO | 192 | 129 | 32.8% |
+| comb | policy | PO | 192 | 129 | 32.8% |
+| comb | policy | ODO | 192 | 129 | 32.8% |
+| comb | policy | OPO | 192 | 129 | 32.8% |
+| comb | policy | DUP | 192 | 129 | 32.8% |
+| comb | policy | PUD | 192 | 129 | 32.8% |
+| comb | policy | FA | 5871 | 25 | 99.6% |
+| comb | policy | OOA | 21 | 21 | 0.0% |
+| src | - | - | 16 | 10 | 37.5% |
+| tgt | - | - | 21 | 21 | 0.0% |
+| total |  |  | 8659 | 1274 | 85.3% |
+
+### T_oracle_validation
+
+Reference oracle vs expected responses of the 455 mandatory XACML 3.0 conformance tests.
+
+| conformance tests | supported | pass | fail | excluded |
+|---|---|---|---|---|
+| 455 | 445 | 445 | 0 | 10 |
+
+### T3_RQ1_semantic_coverage
+
+Mean over 30 seeds (budget-matched); the conformance suite is fixed. Family sizes: rule=12, comb-rule=411, comb-policy=820, src=10, tgt=21
+
+| suite | tests | rule (%) | comb-rule (%) | comb-policy (%) | src (%) | tgt (%) | overall (%) |
+|---|---|---|---|---|---|---|---|
+| Semantics coverage (ours) | 5096 | 100.0 | 100.0 | 100.0 | 100.0 | 100.0 | 100.0 ± 0.0 |
+| Random | 5096 | 100.0 | 42.8 | 29.2 | 50.0 | 66.7 | 35.0 ± 1.1 |
+| Rule coverage (X-PTG style) | 5096 | 66.7 | 13.1 | 11.2 | 0.0 | 38.1 | 12.7 ± 0.3 |
+| OASIS conformance suite | 445 | 83.3 | 10.9 | 3.8 | 40.0 | 66.7 | 8.2 |
+
+### T4_RQ2_mutation_score
+
+25 PDP mutants (F1-F4), 30 seeds.
+
+| suite | mutation score (mean ± sd) | range |
+|---|---|---|
+| Semantics coverage (ours) | 0.999 ± 0.007 | 0.96-1.00 |
+| Random | 0.868 ± 0.026 | 0.80-0.92 |
+| Rule coverage (X-PTG style) | 0.231 ± 0.023 | 0.16-0.24 |
+| OASIS conformance suite | 0.480 | - |
+
+### T5_statistics
+
+Paired Wilcoxon signed-rank test over 30 seeds; Vargha-Delaney A12.
+
+| metric | comparison | Wilcoxon p | A12 | effect size |
+|---|---|---|---|---|
+| coverage | ours vs Random | 1.72e-06 | 1.000 | large |
+| coverage | ours vs Rule coverage (X-PTG style) | 1.67e-06 | 1.000 | large |
+| mutation_score | ours vs Random | 6.87e-07 | 1.000 | large |
+| mutation_score | ours vs Rule coverage (X-PTG style) | 3.34e-07 | 1.000 | large |
+
+### T6_RQ2_per_mutant
+
+| mutant | class | description | ours (/30) | random (/30) | rule cov (/30) | OASIS CT |
+|---|---|---|---|---|---|---|
+| do_errD_permit | F1 | deny-overrides: Ind{D} with Permit/Ind{P} returns Ind{D} instead of Ind{DP} | 30 | 26 | 0 | no |
+| do_permit_first | F1 | deny-overrides: Permit checked before pending Indeterminate flags | 30 | 30 | 29 | no |
+| do_dp_as_d | F1 | deny-overrides: Ind{DP} child treated as Ind{D} | 30 | 3 | 0 | no |
+| po_errP_deny | F1 | permit-overrides: Ind{P} with Deny/Ind{D} returns Ind{P} instead of Ind{DP} | 30 | 24 | 0 | no |
+| po_ignore_ip | F1 | permit-overrides: Ind{P} child ignored (treated as NotApplicable) | 30 | 30 | 0 | yes |
+| dup_ind | F1 | deny-unless-permit: Indeterminate child propagated instead of Deny | 30 | 30 | 28 | yes |
+| pud_ind | F1 | permit-unless-deny: Indeterminate child propagated instead of Permit | 30 | 30 | 29 | yes |
+| fa_continue_ind | F1 | first-applicable: continues after an Indeterminate child | 30 | 30 | 28 | yes |
+| fa_ind_dp | F1 | first-applicable: returns Ind{DP} instead of the child's Indeterminate | 30 | 30 | 0 | no |
+| ooa_ind_ignored | F1 | only-one-applicable: Indeterminate child target treated as NoMatch | 29 | 30 | 0 | no |
+| ooa_multi_first | F1 | only-one-applicable: >1 applicable returns first applicable | 30 | 30 | 30 | yes |
+| odo_legacy | F1 | ordered-deny-overrides implemented with XACML 1.0 semantics | 30 | 30 | 29 | yes |
+| anyof_ind_nm | F2 | AnyOf: Indeterminate AllOf treated as NoMatch | 30 | 30 | 0 | yes |
+| allof_ind_nm | F2 | AllOf: Indeterminate Match treated as NoMatch | 30 | 30 | 0 | yes |
+| target_ind_over_nm | F2 | Target: Indeterminate AnyOf dominates NoMatch | 30 | 30 | 0 | no |
+| mbp_ignored | F3 | MustBePresent ignored (missing attribute gives empty bag) | 30 | 30 | 0 | yes |
+| oao_multi_first | F3 | *-one-and-only on a multi-valued bag returns the first value | 30 | 30 | 0 | yes |
+| oao_empty_false | F3 | *-one-and-only on an empty bag makes the condition false | 30 | 30 | 0 | yes |
+| div0_zero | F3 | division by zero returns 0 | 30 | 0 | 0 | no |
+| regex_false | F3 | invalid regular expression evaluates to false | 30 | 0 | 0 | no |
+| pol_tind_dp | F4 | Policy target Indeterminate always gives Ind{DP} (XACML 2.0 behaviour) | 30 | 30 | 0 | no |
+| pol_tind_na | F4 | Policy target Indeterminate gives NotApplicable | 30 | 30 | 0 | no |
+| ps_tind_dp | F4 | PolicySet target Indeterminate always gives Ind{DP} | 30 | 28 | 0 | no |
+| rule_cind_dp | F4 | Rule condition Indeterminate gives Ind{DP} instead of Ind{effect} | 30 | 30 | 0 | no |
+| rule_tind_na | F4 | Rule target Indeterminate gives NotApplicable | 30 | 30 | 0 | yes |
+
+Spearman correlation between semantic coverage and mutation score over 90 suite instances: rho = 0.944, p = 2.90e-44
+
+### T7_budget_saturation
+
+5 seeds per cell; ours reaches 100% coverage and MS 0.999 at 1x.
+
+| baseline | budget (x ours) | tests | coverage (%) | mutation score |
+|---|---|---|---|---|
+| random | 1 | 5096 | 34.7 | 0.888 |
+| random | 2 | 10192 | 42.7 | 0.888 |
+| random | 5 | 25480 | 53.8 | 0.896 |
+| random | 10 | 50960 | 61.6 | 0.920 |
+| rulecov | 1 | 5096 | 12.5 | 0.232 |
+| rulecov | 2 | 10192 | 13.3 | 0.240 |
+| rulecov | 5 | 25480 | 13.8 | 0.240 |
+| rulecov | 10 | 50960 | 13.8 | 0.240 |
+
+### T8_RQ5_scalability
+
+Mean of 3 seeds; 1,274 goals per run.
+
+| depth k | generation time (s) | ms per goal | Z3 calls | UNSAT (%) | goals not reached | coverage (%) | oracle ms/test |
+|---|---|---|---|---|---|---|---|
+| 1 | 19.0 | 14.9 | 2270 | 43.9 | 0.0 | 100.00 | 0.074 |
+| 2 | 26.2 | 20.6 | 3342 | 61.9 | 0.0 | 100.00 | 0.092 |
+| 3 | 37.5 | 29.5 | 5343 | 76.1 | 0.3 | 99.97 | 0.133 |
+| 4 | 57.4 | 45.1 | 8542 | 85.1 | 5.7 | 99.56 | 0.164 |
+| 5 | 84.3 | 66.2 | 13506 | 90.7 | 24.3 | 98.09 | 0.172 |
+
+### T11_conformance_both_engines
+
+| engine | runnable OASIS tests | pass | fail |
+|---|---|---|---|
+| balana | 447 | 407 | 40 |
+| openaz | 447 | 447 | 0 |
+
+### T12_defects_both_engines
+Seeds (of 5) in which a suite exposes the defect. OpenAZ O4 (NullPointerException in PermitOverrides) is latent and found by code reading only.
+
+| engine | id | class | defect | ours | random | rule cov. |
+|---|---|---|---|---|---|---|
+| balana | B1 | F4 | DO policy alg: child with Indeterminate target -> Deny | 5/5 | 5/5 | 0/5 |
+| balana | B2 | F1 | DO policy alg: && instead of || | 5/5 | 0/5 | 0/5 |
+| balana | B3 | F1 | PO rule alg: no Ind{D} branch | 5/5 | 5/5 | 0/5 |
+| balana | B4 | F4 | PO policy alg: child with Indeterminate target skipped | 5/5 | 5/5 | 0/5 |
+| balana | B5 | F4 | plain Indeterminate ignored by 3.0 parents | 5/5 | 5/5 | 5/5 |
+| balana | B6 | F4 | FA policy alg: target Ind -> Ind even if NA | 3/5 | 3/5 | 0/5 |
+| balana | B7 | F4 | root target Ind -> Ind even if NA | 5/5 | 4/5 | 0/5 |
+| balana | B8 | F3 | invalid regex: uncaught exception | 5/5 | 0/5 | 0/5 |
+| openaz | O1 | F4 | root target NoMatch -> Indeterminate | 5/5 | 5/5 | 0/5 |
+| openaz | O2 | F4 | policy/policy-set target Ind -> Ind{DP}, children ignored | 5/5 | 5/5 | 0/5 |
+| openaz | O3 | F4 | rule target/condition Ind -> Ind{DP} (no Ind{P}/Ind{D}) | 5/5 | 5/5 | 0/5 |
+| openaz | O5 | F3 | invalid regex: uncaught exception | 5/5 | 0/5 | 0/5 |
+| openaz | O6 | F2 | Target returns first non-Match AnyOf (order dependent) | 3/5 | 5/5 | 0/5 |
+| openaz | O7 | F3 | regexp-match anchored (String.matches) | 0/5 | 0/5 | 0/5 |
+
+### T13_impact_both_engines
+Failing tests over the 15 generated suites (5 seeds x 3 suites).
+
+| engine | id | unauthorized Permit | Permit lost | other wrong decision | no response |
+|---|---|---|---|---|---|
+| balana | B1 | 0 | 1339 | 5507 | 0 |
+| balana | B2 | 0 | 0 | 43 | 0 |
+| balana | B3 | 63 | 1 | 117 | 0 |
+| balana | B4 | 23 | 0 | 1834 | 0 |
+| balana | B5 | 156 | 0 | 383 | 0 |
+| balana | B6 | 4 | 2 | 15 | 0 |
+| balana | B7 | 0 | 0 | 134 | 0 |
+| balana | B8 | 0 | 0 | 0 | 1488 |
+| openaz | O1 | 0 | 0 | 7976 | 0 |
+| openaz | O2 | 2 | 1345 | 1640 | 0 |
+| openaz | O3 | 4 | 316 | 286 | 0 |
+| openaz | O5 | 0 | 0 | 0 | 1532 |
+| openaz | O6 | 0 | 22 | 58 | 0 |
+| openaz | O7 | 0 | 0 | 0 | 0 |
+
+### T14_ablation
+Coverage and mutation score: mean of 30 seeds. Random values instead of Z3 missed 58.4 goals on average with 6.3x more skeleton draws. Denominators: defects reachable by synthetic suites (Balana B1-B8; OpenAZ O1-O3, O5, O6; O7 needs a regular expression and appears only in real policies). For a, b, c the B5 witnesses depend on the only-one-applicable subtype reading.
+
+| variant | tests | coverage (%) | mutation score | Balana defects (all 5 seeds) | OpenAZ defects (all 5 seeds) |
+|---|---|---|---|---|---|
+| Full suite (4 contexts) | 5096 | 100.0 | 0.999 | 7/8 | 4/5 |
+| Context a only | 1274 | 100.0 | 0.939 | 5/8 | 4/5 |
+| Contexts a, b, c | 3822 | 100.0 | 0.999 | 7/8 | 4/5 |
+| Without policy-combining goals | 1816 | 37.1 | 0.880 | 5/8 | 4/5 |
+| Without rule-combining goals | 3452 | 71.4 | 0.999 | 7/8 | 4/5 |
+| Without target-table goals | 5012 | 99.1 | 0.959 | 7/8 | 4/5 |
+| Without Indeterminate-source goals | 5056 | 99.8 | 0.999 | 7/8 | 4/5 |
+| Without rule-table goals | 5048 | 100.0 | 0.999 | 7/8 | 4/5 |
+| Greedy-minimised (coverage only) | 1181 | 100.0 | 0.937 | 5/8 | 4/5 |
+| Random values instead of Z3 | 4862 | 95.4 | 0.999 | n/a | n/a |
+
+### T15_permutation_extension
+All permutations of the target-table goals (900 tests).
+
+| engine | seeds with a discrepancy (of 5) | model mismatches |
+|---|---|---|
+| balana | 0 | 0 |
+| openaz | 5 | 0 |
+
+### T16_real_policy_coverage
+64 public policies (3 skipped: non-standard functions). Goal instances are counted per policy; the union is over all suites.
+
+| suite | tests | goal instances covered | share of union (%) |
+|---|---|---|---|
+| Ours | 2240 | 1489 | 93.1 |
+| Rule coverage | 125 | 418 | 26.1 |
+| Random (budget = ours) | 2240 | 894.8 | 55.9 |
+
+### T17_real_policy_engines
+
+| engine | suite | tests | discrepancies | unexplained | defects (policies affected) |
+|---|---|---|---|---|---|
+| balana | ours | 2240 | 354 | 0 | B1: 10 pol.; B4: 10 pol.; B7: 1 pol.; load: Error parsing required attribute RuleId: 1 pol.; load: Unknown FunctionId: 1 pol. |
+| openaz | ours | 2240 | 296 | 0 | O1: 33 pol.; O2: 11 pol.; O3: 7 pol.; O7: 6 pol. |
+| balana | rulecov | 125 | 4 | 0 | load: Error parsing required attribute RuleId: 1 pol.; load: Unknown FunctionId: 1 pol. |
+| openaz | rulecov | 125 | 32 | 0 | O1: 11 pol.; O7: 6 pol. |
+| balana | random | 2240 | 68 | 0 | B7: 1 pol.; load: Error parsing required attribute RuleId: 1 pol.; load: Unknown FunctionId: 1 pol. |
+| openaz | random | 2240 | 754 | 0 | O1: 33 pol.; O2: 1 pol.; O7: 6 pol. |
+
+### Propositions (mechanised)
+
+- minimal context sets distinguishing all six extended decisions: ['bc']
+- subtype-robust detection of a parent that ignores a plain Indeterminate: minimal ['d'], a+b+c robust = False
+- closed-form goal counts match enumeration: True
+- deny/permit-overrides duality and order independence: {'cases': 1555, 'violations': 0}
+### T18_E1_spec_check
+
+Oracle vs the literally transcribed pseudo-code / truth tables of OASIS ACAL 1.0 (acal-core-v1.0.md, Annex E, Tables 4-5); all child-decision vectors up to length 5.
+
+| normative artefact | input vectors | mismatches |
+|---|---|---|
+| deny-overrides | 9331 | 0 |
+| permit-overrides | 9331 | 0 |
+| deny-unless-permit | 9331 | 0 |
+| permit-unless-deny | 9331 | 0 |
+| first-applicable | 9331 | 0 |
+| table5-target-indeterminate | 6 | 0 |
+| table4-rule | 6 | 0 |
+
+### T19_E2_decision_table_mutants
+
+3202 mutants: every entry of every decision table replaced by every other output (sizes: comb-rule=1010, comb-policy=2030, rule=60, tmap=60, tgt=42). Mean over 5 seeds, budget-matched suites.
+
+| suite | comb-rule (%) | comb-policy (%) | rule (%) | tmap (%) | tgt (%) | overall (%) |
+|---|---|---|---|---|---|---|
+| Ours | 100.0 | 100.0 | 100.0 | 100.0 | 100.0 | 100.0 (100.0-100.0) |
+| Random | 48.5 | 42.0 | 99.7 | 63.3 | 66.7 | 45.8 (43.5-47.6) |
+| Rule coverage | 22.4 | 19.1 | 66.7 | 0.0 | 38.1 | 21.0 (20.5-21.8) |
+| OASIS conformance suite | 17.7 | 6.9 | 66.7 | 0.0 | 57.1 | 12.0 |
+
+### T20_E3_depth2_coverage
+
+868 depth-2 goals (parent algorithm x child type/algorithm x child target x child decision); 5 seeds.
+
+| suite | tests | depth-2 coverage (%) |
+|---|---|---|
+| Depth-2 suite | 3472 | 100.0 ± 0.0 |
+| Depth-1 suite (ours) | 5096 | 42.2 ± 0.2 |
+| Random | 5096 | 52.4 ± 1.1 |
+| Rule coverage | 5096 | 31.3 ± 0.6 |
+
+### T21_E3_depth2_defects
+
+B5 counts only witnesses that are wrong under every reading of the only-one-applicable subtype. Root-level defects (B7, O1) and target-order defects (O6) are outside the depth-2 goal space.
+
+| engine | defect | depth-1 suite (seeds) | depth-2 suite (seeds) | failing depth-2 tests per seed |
+|---|---|---|---|---|
+| balana | B1 | 5/5 | 5/5 | 408 |
+| balana | B2 | 5/5 | 5/5 | 3 |
+| balana | B3 | 5/5 | 5/5 | 67 |
+| balana | B4 | 5/5 | 5/5 | 272 |
+| balana | B5 | 5/5 | 5/5 | 108 |
+| balana | B6 | 3/5 | 5/5 | 105 |
+| balana | B7 | 5/5 | 0/5 | 0 |
+| balana | B8 | 5/5 | 5/5 | 165 |
+| openaz | O1 | 5/5 | 0/5 | 0 |
+| openaz | O2 | 5/5 | 5/5 | 391 |
+| openaz | O3 | 5/5 | 5/5 | 116 |
+| openaz | O5 | 5/5 | 5/5 | 167 |
+| openaz | O6 | 3/5 | 0/5 | 0 |
+| openaz | O7 | 0/5 | 0/5 | 0 |
+
+Depth-2 suite on the 25 hand-written mutants: 23.8 killed on average; missed (seeds of 5): target_ind_over_nm (5), ooa_multi_first (1)
+
+docs/RESULTS.md and README headline updated

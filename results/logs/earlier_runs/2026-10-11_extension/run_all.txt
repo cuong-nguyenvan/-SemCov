@@ -1,0 +1,16 @@
+[06:24:52] stage 14: realpolicies
+[06:31:59] all stages done - tables and figures in results/paper/
+[06:31:59] stage 20: benchmarks
+[07:55:42] all stages done - tables and figures in results/paper/
+[08:01:33] stage 9: attribution
+[08:21:43] stage 10: explain
+[08:38:00] stage 11: witnesses
+[08:40:43] stage 12: ablation
+[08:57:34] stage 13: permutation
+[08:57:42] all stages done - tables and figures in results/paper/
+[08:57:42] stage 17: depth2
+[09:12:40] all stages done - tables and figures in results/paper/
+[09:12:40] stage 19: differential
+[09:23:24] all stages done - tables and figures in results/paper/
+[09:23:29] stage 21: tables
+[09:23:34] all stages done - tables and figures in results/paper/

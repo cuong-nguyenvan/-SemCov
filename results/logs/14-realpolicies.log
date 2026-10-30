@@ -1,0 +1,88 @@
+67 policies kept; 37 non-trivial
+by source {'balana': 22, 'openaz': 18, 'authzforce': 25, 'onap': 2}
+rejected [('AttributeSelector (XPath)', 7), ('policy references', 6), ('parse: ParseError', 4), ('combining algorithm urn:oasis:names:tc:xacml:3.0:r', 3), ('datatype urn:oasis:names:tc:xacml:2.0:data-type:ip', 2), ('Match without designator (selector?)', 2), ('combining algorithm urn:oasis:names:tc:xacml:3.0:p', 1), ('root element Response', 1), ('datatype urn:ow2:authzforce:feature:pdp:data-type:', 1), ('datatype urn:oasis:names:tc:xacml:3.0:data-type:dn', 1), ('invalid policy: PolicySet without a policy-combini', 1), ('combining algorithm urn:com:att:xacml:3.0:policy-c', 1)]
+balana__TestPolicy_0001__540edd 60 4 | 11 4 13.2 / 20 | t 31.4 1.0 {}
+balana__TestPolicy_0002__8f6981 20 1 | 18 5 11 / 18 | t 0.1 0.0 {}
+balana__TestPolicy_0004__720032 28 2 | 29 8 13.6 / 30 | t 0.1 0.0 {}
+balana__TestPolicy_0001__ecd0da 44 3 | 25 12 13 / 27 | t 11.3 0.1 {}
+balana__TestPolicy_0002__691b8c 44 3 | 25 12 13 / 27 | t 12.6 0.2 {}
+balana__TestPolicy_0003__38faea 44 3 | 25 12 13 / 27 | t 11.9 0.2 {}
+balana__TestPolicy_0004__a6a5ed 44 3 | 25 12 13 / 27 | t 14.1 0.1 {}
+balana__TestPolicy_0005__e25f44 44 3 | 25 12 13 / 27 | t 11.7 0.1 {}
+balana__TestPolicy_0006__983093 16 2 | 11 4 11 / 17 | t 0.3 0.0 {}
+balana__TestPolicy_0014__afd985 44 3 | 25 12 13 / 27 | t 12.2 0.2 {}
+balana__TestPolicy_0015__5a8cda 32 2 | 11 4 14 / 20 | t 1.1 0.1 {}
+balana__TestPolicy_0016__d31803 20 2 | 11 4 11 / 17 | t 0.3 0.0 {}
+balana__TestPolicy_0019__09f42f 64 2 | 36 13 23.8 / 36 | t 0.2 0.0 {}
+balana__TestPolicy_0020__841558 64 2 | 36 13 23.8 / 36 | t 0.2 0.0 {}
+balana__hierarchical-resource-policy__1f707b 96 4 | 45 14 22.8 / 45 | t 0.4 0.1 {}
+balana__kmarket-blue-policy__a9b8f2 104 4 | 55 14 31.2 / 55 | t 0.4 0.0 {}
+balana__kmarket-gold-policy__3e363e 88 3 | 51 12 30.4 / 52 | t 0.4 0.0 {}
+balana__kmarket-sliver-policy__0f8528 112 5 | 51 13 30.4 / 52 | t 0.5 0.0 {}
+balana__kmarket-blue-policy__09e45c 104 4 | 55 14 31.2 / 55 | t 0.4 0.1 {}
+balana__kmarket-gold-policy__4f7b72 88 3 | 51 12 30.4 / 52 | t 0.4 0.0 {}
+balana__kmarket-sliver-policy__5b09cb 112 5 | 51 13 30.4 / 52 | t 0.4 0.1 {}
+balana__web-image-filter-policy__40619c 100 4 | 27 4 25.6 / 37 | t 135.0 8.1 {}
+openaz__TestPolicy001__ac2a6e 16 1 | 18 7 11.8 / 19 | t 0.1 0.0 {}
+openaz__TestPolicy003__013556 36 3 | 19 9 11 / 19 | t 0.3 0.0 {}
+openaz__TestPolicy004__5b41a5 56 2 | 29 9 13.6 / 30 | t 0.4 0.1 {}
+openaz__AnnotationPolicy.v1__5feebc 32 2 | 24 12 15 / 25 | t 73.4 0.1 {}
+openaz__CSV-Baseball-Hall-Of-Fame-v1__04348f 64 3 | 34 7 28.4 / 39 | t 0.3 0.0 {}
+openaz__CSV-Legal-Age-Marriage-v1__6a9197 92 4 | 28 11 17 / 28 | t 11.2 0.7 {}
+openaz__LDAP-Seven-Seas-v1__f87202 36 2 | 39 6 21.6 / 41 | t 2.2 0.1 {}
+openaz__SQL-World-Languages-v1__69dd38 32 2 | 29 6 14.4 / 30 | t 0.1 0.0 {}
+openaz__manager_permission_policy__233394 24 1 | 20 6 13 / 21 | t 0.1 0.0 {}
+openaz__Benchmark__b86747 24 2 | 22 6 12 / 22 | t 0.1 0.0 {}
+openaz__policy_deny_D1__2282b3 12 1 | 18 5 9 / 18 | t 0.0 0.0 {}
+openaz__policy_deny_D2__b61c93 12 1 | 18 5 9 / 18 | t 0.0 0.0 {}
+openaz__policy_na__25aa21 4 0 | 8 0 1 / 8 | t 0.0 0.0 {}
+openaz__policy_no_match__640073 8 0 | 15 0 7.2 / 15 | t 0.0 0.0 {}
+openaz__policy_permit_P1__d90cf7 8 1 | 17 5 8.2 / 17 | t 0.0 0.0 {}
+openaz__policy_permit_P2__80da9d 8 1 | 17 5 8.2 / 17 | t 0.0 0.0 {}
+openaz__Custom-Category-v1__888f15 60 2 | 42 12 25.2 / 42 | t 0.1 0.0 {}
+skip openaz__Custom-Datatype-Function-v1__42ce48 non-standard function identifier urn:com:att:research:xacml:custom:function:3.0:rsa:decrypt
+authzforce__policy__762129 16 1 | 20 6 12 / 20 | t 0.1 0.0 {}
+authzforce__policy__7c6380 8 1 | 20 6 10.8 / 20 | t 0.1 0.0 {}
+authzforce__policy__cfbdf4 4 0 | 8 0 1 / 8 | t 0.0 0.0 {}
+authzforce__Policy__b28c26 20 2 | 24 8 18.2 / 29 | t 0.5 0.0 {}
+authzforce__policy__add9ab 4 0 | 8 0 1 / 8 | t 0.0 0.0 {}
+authzforce__policy__1a24a5 16 1 | 20 6 12 / 20 | t 0.1 0.0 {}
+authzforce__policy__784408 8 1 | 20 6 10.8 / 20 | t 0.1 0.0 {}
+authzforce__policy__683387 4 0 | 8 0 1 / 8 | t 0.0 0.0 {}
+authzforce__policy__09a931 20 0 | 17 0 10 / 17 | t 0.1 0.0 {}
+authzforce__policy__de3915 20 0 | 17 0 10 / 17 | t 0.1 0.0 {}
+skip authzforce__policy__ba84c9 non-standard function identifier urn:oasis:names:tc:xacml:2.0:function:string-equal
+skip authzforce__policy__fd001f non-standard function identifier urn:oasis:names:tc:xacml:2.0:function:string-equal
+authzforce__policy__d624f2 4 1 | 9 3 3 / 9 | t 0.1 0.0 {}
+authzforce__policy__8c30de 4 0 | 8 0 1 / 8 | t 0.0 0.0 {}
+authzforce__policy__4bccc6 16 1 | 18 7 11.8 / 19 | t 0.1 0.0 {}
+authzforce__pps-employee__117b0f 32 1 | 27 6 20.2 / 29 | t 0.1 0.0 {}
+authzforce__policy__ef619b 44 2 | 32 8 19 / 33 | t 0.2 0.0 {}
+authzforce__policy__822940 68 6 | 20 11 12 / 20 | t 0.8 0.1 {}
+authzforce__policy__f18908 104 6 | 29 11 20 / 29 | t 1.1 0.1 {}
+authzforce__policy__7c1198 68 6 | 20 11 12 / 20 | t 0.9 0.1 {}
+authzforce__policy__8af05f 20 1 | 24 5 13.6 / 24 | t 0.0 0.0 {}
+authzforce__boss_permission_policy__349f51 24 1 | 20 6 13 / 21 | t 0.1 0.0 {}
+authzforce__permit-all-policy-0.1.0__96eb6a 4 1 | 7 2 2 / 7 | t 0.0 0.0 {}
+authzforce__permit-all-policy-0.1__216030 4 1 | 7 2 2 / 7 | t 0.0 0.0 {}
+authzforce__permit-all-policyset-0.1.0__19ad40 4 1 | 8 3 3 / 8 | t 0.0 0.0 {}
+onap__onap.policies.controlloop.guard.coordination 28 1 | 26 5 13 / 27 | t 16.4 0.1 {}
+onap__native.policy__ab950a 16 1 | 18 7 11.8 / 19 | t 0.1 0.0 {}
+balana semcov 2456 {'discrepancy': 224, 'B4': 27, 'B1': 104, 'model_mismatch': 92, 'load-error: Unknown FunctionId': 64, 'B7': 1, 'load-error: Error parsing required attribute RuleId': 28} {'B4': 10, 'B1': 10, 'load-error: Unknown FunctionId': 1, 'B7': 1, 'load-error: Error parsing required attribute RuleId': 1}
+openaz semcov 2456 {'discrepancy': 279, 'O1': 138, 'O3': 28, 'O7': 90, 'O2': 53} {'O1': 33, 'O3': 7, 'O7': 6, 'O2': 11}
+balana rulecov 131 {'model_mismatch': 5, 'discrepancy': 5, 'load-error: Unknown FunctionId': 3, 'unexplained': 1, 'load-error: Error parsing required attribute RuleId': 1} {'load-error: Unknown FunctionId': 1, 'load-error: Error parsing required attribute RuleId': 1}
+openaz rulecov 131 {'discrepancy': 33, 'O1': 32, 'O7': 12, 'model_mismatch': 1, 'unexplained': 1} {'O1': 11, 'O7': 6}
+balana random 2456 {'model_mismatch': 92, 'discrepancy': 96, 'load-error: Unknown FunctionId': 64, 'B7': 4, 'load-error: Error parsing required attribute RuleId': 28} {'load-error: Unknown FunctionId': 1, 'B7': 1, 'load-error: Error parsing required attribute RuleId': 1}
+openaz random 2456 {'discrepancy': 790, 'O1': 786, 'O7': 132, 'O2': 4} {'O1': 33, 'O7': 6, 'O2': 1}
+balana semcov 2456 {'model_matches': 2364, 'discrepancy': 224, 'B4': 27, 'B1': 104, 'load: Unknown FunctionId': 64, 'B7': 1, 'load: Error parsing required attribute RuleId': 28}
+    policies per defect: {'B4': 10, 'B1': 10, 'load: Unknown FunctionId': 1, 'B7': 1, 'load: Error parsing required attribute RuleId': 1}
+openaz semcov 2456 {'model_matches': 2456, 'discrepancy': 279, 'O1': 138, 'O3': 28, 'O7': 90, 'O2': 53}
+    policies per defect: {'O1': 33, 'O3': 7, 'O7': 6, 'O2': 11}
+balana rulecov 131 {'model_matches': 127, 'discrepancy': 4, 'load: Unknown FunctionId': 3, 'load: Error parsing required attribute RuleId': 1}
+    policies per defect: {'load: Unknown FunctionId': 1, 'load: Error parsing required attribute RuleId': 1}
+openaz rulecov 131 {'model_matches': 131, 'discrepancy': 32, 'O1': 32, 'O7': 12}
+    policies per defect: {'O1': 11, 'O7': 6}
+balana random 2456 {'model_matches': 2364, 'discrepancy': 96, 'load: Unknown FunctionId': 64, 'B7': 4, 'load: Error parsing required attribute RuleId': 28}
+    policies per defect: {'load: Unknown FunctionId': 1, 'B7': 1, 'load: Error parsing required attribute RuleId': 1}
+openaz random 2456 {'model_matches': 2456, 'discrepancy': 790, 'O1': 786, 'O7': 132, 'O2': 4}
+    policies per defect: {'O1': 33, 'O7': 6, 'O2': 1}

@@ -1,0 +1,93 @@
+ours_s0 {'model_full_matches_balana': 5096, 'agree': 3044, 'discrepancy': 2052}
+   explained: {'B8': 304, 'B7': 23, 'B1': 1320, 'B4': 356, 'B3': 21, 'B2': 12, 'B3+B4': 6, 'B5+B6': 4, 'B5': 6}
+rulecov_s0 {'model_full_matches_balana': 5096, 'agree': 5041, 'discrepancy': 55}
+   explained: {'B5': 55}
+random_s0 {'model_full_matches_balana': 5096, 'agree': 5039, 'discrepancy': 57}
+   explained: {'B3': 13, 'B1': 25, 'B5': 11, 'B3+B5': 1, 'B4': 7}
+ours_s1 {'model_full_matches_balana': 5096, 'agree': 3034, 'discrepancy': 2062}
+   explained: {'B8': 288, 'B7': 23, 'B1': 1355, 'B4': 361, 'B3': 17, 'B2': 5, 'B3+B4': 3, 'B5+B6': 4, 'B5': 6}
+rulecov_s1 {'model_full_matches_balana': 5096, 'agree': 5035, 'discrepancy': 61}
+   explained: {'B5': 61}
+random_s1 {'model_full_matches_balana': 5096, 'agree': 4969, 'discrepancy': 127}
+   explained: {'B5': 87, 'B7': 5, 'B4': 7, 'B3': 12, 'B3+B5': 1, 'B1': 14, 'B6': 1}
+ours_s2 {'model_full_matches_balana': 5096, 'agree': 3032, 'discrepancy': 2064}
+   explained: {'B8': 296, 'B7': 23, 'B1': 1345, 'B4': 366, 'B3': 17, 'B2': 8, 'B3+B4': 3, 'B5': 6}
+rulecov_s2 {'model_full_matches_balana': 5096, 'agree': 5045, 'discrepancy': 51}
+   explained: {'B5': 51}
+random_s2 {'model_full_matches_balana': 5096, 'agree': 5018, 'discrepancy': 78}
+   explained: {'B4': 13, 'B1': 19, 'B3': 14, 'B7': 8, 'B5': 19, 'B5+B6': 1, 'B3+B5': 2, 'B6': 2}
+ours_s3 {'model_full_matches_balana': 5096, 'agree': 3035, 'discrepancy': 2061}
+   explained: {'B8': 288, 'B7': 23, 'B1': 1354, 'B4': 355, 'B3': 16, 'B2': 9, 'B3+B4': 5, 'B5+B6': 5, 'B5': 6}
+rulecov_s3 {'model_full_matches_balana': 5096, 'agree': 5033, 'discrepancy': 63}
+   explained: {'B5': 63}
+random_s3 {'model_full_matches_balana': 5096, 'agree': 5048, 'discrepancy': 48}
+   explained: {'B7': 2, 'B3': 18, 'B1': 14, 'B5': 9, 'B4': 5}
+ours_s4 {'model_full_matches_balana': 5096, 'agree': 2992, 'discrepancy': 2104}
+   explained: {'B8': 312, 'B7': 23, 'B1': 1377, 'B4': 353, 'B3': 20, 'B2': 9, 'B3+B4': 4, 'B5': 6}
+rulecov_s4 {'model_full_matches_balana': 5096, 'agree': 5019, 'discrepancy': 77}
+   explained: {'B5': 77}
+random_s4 {'model_full_matches_balana': 5096, 'agree': 4988, 'discrepancy': 108}
+   explained: {'B1': 23, 'B5': 56, 'B4': 13, 'B3': 8, 'B6': 2, 'B7': 4, 'B5+B6': 2}
+ct {'model_full_matches_balana': 407, 'agree': 407, 'model_full_mismatch': 38, 'discrepancy': 38}
+   explained: {'unexplained': 38}
+('ours_s0', 'ambiguous') 4
+('ours_s0', 'definite') 6
+('ours_s1', 'ambiguous') 4
+('ours_s1', 'definite') 6
+('ours_s2', 'ambiguous') 4
+('ours_s2', 'definite') 2
+('ours_s3', 'ambiguous') 4
+('ours_s3', 'definite') 7
+('ours_s4', 'ambiguous') 4
+('ours_s4', 'definite') 2
+('random_s0', 'ambiguous') 5
+('random_s0', 'definite') 7
+('random_s1', 'ambiguous') 43
+('random_s1', 'definite') 45
+('random_s2', 'ambiguous') 3
+('random_s2', 'definite') 19
+('random_s3', 'ambiguous') 5
+('random_s3', 'definite') 4
+('random_s4', 'ambiguous') 11
+('random_s4', 'definite') 47
+('rulecov_s0', 'ambiguous') 30
+('rulecov_s0', 'definite') 25
+('rulecov_s1', 'ambiguous') 33
+('rulecov_s1', 'definite') 28
+('rulecov_s2', 'ambiguous') 37
+('rulecov_s2', 'definite') 14
+('rulecov_s3', 'ambiguous') 36
+('rulecov_s3', 'definite') 27
+('rulecov_s4', 'ambiguous') 58
+('rulecov_s4', 'definite') 19
+ours_s0 5096 2052 {'B8': 304, 'B7': 23, 'B1': 1320, 'B4': 362, 'B3': 27, 'B2': 12, 'B5': 10, 'B6': 4}
+random_s0 5096 57 {'B3': 14, 'B1': 25, 'B5': 12, 'B4': 7}
+rulecov_s0 5096 55 {'B5': 55}
+ours_s1 5096 2062 {'B8': 288, 'B7': 23, 'B1': 1355, 'B4': 364, 'B3': 20, 'B2': 5, 'B5': 10, 'B6': 4}
+random_s1 5096 127 {'B5': 88, 'B7': 5, 'B4': 7, 'B3': 13, 'B1': 14, 'B6': 1}
+rulecov_s1 5096 61 {'B5': 61}
+ours_s2 5096 2064 {'B8': 296, 'B7': 23, 'B1': 1345, 'B4': 369, 'B3': 20, 'B2': 8, 'B5': 6}
+random_s2 5096 78 {'B4': 13, 'B1': 19, 'B3': 16, 'B7': 8, 'B5': 22, 'B6': 3}
+rulecov_s2 5096 51 {'B5': 51}
+ours_s3 5096 2061 {'B8': 288, 'B7': 23, 'B1': 1354, 'B4': 360, 'B3': 21, 'B2': 9, 'B5': 11, 'B6': 5}
+random_s3 5096 48 {'B7': 2, 'B3': 18, 'B1': 14, 'B5': 9, 'B4': 5}
+rulecov_s3 5096 63 {'B5': 63}
+ours_s4 5096 2104 {'B8': 312, 'B7': 23, 'B1': 1377, 'B4': 357, 'B3': 24, 'B2': 9, 'B5': 6}
+random_s4 5096 108 {'B1': 23, 'B5': 58, 'B4': 13, 'B3': 8, 'B6': 4, 'B7': 4}
+rulecov_s4 5096 77 {'B5': 77}
+['B1', 'xacml3.DenyOverridesPolicyAlg', 'F4', 'child policy with Indeterminate target makes the policy set return Deny', '5/5', '5/5', '0/5', '0/1', '1358']
+['B2', 'xacml3.DenyOverridesPolicyAlg', 'F1', "'errD && (errP && permit)' instead of '||': Ind{D}+Permit/Ind{P} gives Ind{D}, not Ind{DP}", '5/5', '0/5', '0/5', '0/1', '8']
+['B3', 'xacml3.PermitOverridesRuleAlg', 'F1', 'no Indeterminate{D} branch: an erroring Deny rule is reported as NotApplicable', '5/5', '5/5', '0/5', '0/1', '21']
+['B4', 'xacml3.PermitOverridesPolicyAlg', 'F4', 'child policy with Indeterminate target is skipped (treated as NotApplicable)', '5/5', '5/5', '0/5', '0/1', '362']
+['B5', 'xacml2 FA/OOA policy algs + xacml3 parents', 'F4', 'plain (non-extended) Indeterminate from first-/only-one-applicable is ignored by deny-/permit-overrides parents', '5/5', '5/5', '5/5', '0/1', '8']
+['B6', 'xacml2.FirstApplicablePolicyAlg', 'F4', "child target Indeterminate returns Indeterminate even when the child's rules give NotApplicable", '3/5', '3/5', '0/5', '0/1', '2']
+['B7', 'PolicyFinder (top level)', 'F4', 'root target Indeterminate gives Indeterminate even when the rules give NotApplicable', '5/5', '4/5', '0/5', '0/1', '23']
+['B8', 'cond.MatchFunction (regexp)', 'F3', 'invalid regular expression throws an uncaught PatternSyntaxException: no response', '5/5', '0/5', '0/5', '0/1', '296']
+B1 {'Permit lost (wrongful Deny)': 1339, 'Indeterminate/NA becomes Deny': 5507}
+B2 {'Indeterminate/NA becomes Deny': 43}
+B3 {'error hidden as NotApplicable': 105, 'unauthorized Permit': 63, 'Indeterminate/NA becomes Deny': 10, 'spurious Indeterminate': 2, 'Permit lost (wrongful Deny)': 1}
+B4 {'Indeterminate/NA becomes Deny': 1751, 'error hidden as NotApplicable': 83, 'unauthorized Permit': 23}
+B5 {'unauthorized Permit': 156, 'error hidden as NotApplicable': 248, 'Indeterminate/NA becomes Deny': 135}
+B6 {'unauthorized Permit': 4, 'error hidden as NotApplicable': 9, 'Indeterminate/NA becomes Deny': 3, 'spurious Indeterminate': 5}
+B7 {'spurious Indeterminate': 134}
+B8 {'no response (crash)': 1488}

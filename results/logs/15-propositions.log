@@ -1,0 +1,12 @@
+P1 minimal distinguishing context sets: ['bc']
+    P ['P', 'P', 'P', 'P']
+    D ['D', 'D', 'D', 'D']
+    NA ['NA', 'D', 'P', 'NA']
+    ID ['IND', 'D', 'IND', 'IND']
+    IP ['IND', 'IND', 'P', 'IND']
+    IDP ['IND', 'IND', 'IND', 'IND']
+P2 ignored_by_parent: abc detects=True  abcd detects=True  minimal=['d', 'bc']
+P2 collapsed_to_DP: abc detects=True  abcd detects=True  minimal=['bc']
+P3 closed forms match enumeration: True {'rule-DO': (65, 65), 'rule-PO': (65, 65), 'rule-ODO': (65, 65), 'rule-OPO': (65, 65), 'rule-DUP': (65, 65), 'rule-PUD': (65, 65), 'rule-FA': (21, 21), 'policy-DO': (129, 129), 'policy-PO': (129, 129), 'policy-ODO': (129, 129), 'policy-OPO': (129, 129), 'policy-DUP': (129, 129), 'policy-PUD': (129, 129), 'policy-FA': (25, 25), 'policy-OOA': (21, 21)}
+P4 deny/permit-overrides duality and order independence: 1555 cases, 0 violations
+P2b subtype-robust detection of 'ignored by parent': abc = False  abcd = True  minimal = ['d']

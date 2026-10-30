@@ -1,0 +1,83 @@
+xpa__HL7 3.0 19 rules 11 nodes schema True
+xpa__Simpson1 3.0 4 rules 1 nodes schema True
+xpa__Simpson2 3.0 4 rules 1 nodes schema True
+xpa__conference3-dup 3.0 15 rules 1 nodes schema True
+xpa__conference3-fa-wdeny 3.0 15 rules 1 nodes schema True
+xpa__conference3-pud 3.0 15 rules 1 nodes schema True
+xpa__conference3 3.0 15 rules 1 nodes schema True
+xpa__fedora-rule3-po 3.0 2 rules 1 nodes schema True
+xpa__fedora-rule3 3.0 12 rules 1 nodes schema True
+reject xpa__gpms AttributeSelector (XPath)
+xpa__itrust3-10 3.0 640 rules 1 nodes schema True
+xpa__itrust3-20 3.0 1280 rules 1 nodes schema True
+xpa__itrust3-40 3.0 2560 rules 1 nodes schema True
+xpa__itrust3-5 3.0 320 rules 1 nodes schema True
+xpa__itrust3 3.0 64 rules 1 nodes schema True
+xpa__kmarket-blue-policy 3.0 4 rules 1 nodes schema True
+xpa__kmarket-gold-policy 3.0 3 rules 1 nodes schema True
+xpa__kmarket-sliver-policy 3.0 5 rules 1 nodes schema True
+xpa__obligation3 3.0 2 rules 1 nodes schema True
+xpa__pluto3 3.0 21 rules 1 nodes schema True
+margrave__continue-a 1.0 298 rules 377 nodes schema True
+margrave__continue-b 1.0 306 rules 377 nodes schema True
+margrave__college-a 1.0 2 rules 7 nodes schema True
+margrave__college-b 1.0 3 rules 10 nodes schema True
+margrave__college-c 1.0 4 rules 12 nodes schema True
+margrave__college-d 1.0 5 rules 16 nodes schema True
+margrave__mg1-simple-policy 1.0 2 rules 3 nodes schema True
+reject margrave__generated ordered-permit-overrides is not defined in XACML 1.0 (introduced in 1.1)
+margrave__sun-cond-1 1.0 1 rules 1 nodes schema True
+margrave__continue-a {'compared': 300, 'balana_1.0_eq_balana_3.0': 300, 'oracle_3.0_eq_balana_1.0': 300, 'oracle_3.0_eq_balana_3.0': 300, 'decisions:NA': 128, 'decisions:D': 149, 'decisions:P': 23}
+margrave__continue-b {'compared': 300, 'balana_1.0_eq_balana_3.0': 300, 'oracle_3.0_eq_balana_1.0': 300, 'oracle_3.0_eq_balana_3.0': 300, 'decisions:NA': 128, 'decisions:D': 149, 'decisions:P': 23}
+margrave__college-a {'compared': 300, 'balana_1.0_eq_balana_3.0': 300, 'oracle_3.0_eq_balana_1.0': 300, 'oracle_3.0_eq_balana_3.0': 300, 'decisions:NA': 280, 'decisions:P': 20}
+margrave__college-b {'compared': 300, 'balana_1.0_eq_balana_3.0': 300, 'oracle_3.0_eq_balana_1.0': 300, 'oracle_3.0_eq_balana_3.0': 300, 'decisions:NA': 285, 'decisions:P': 15}
+margrave__college-c {'compared': 300, 'balana_1.0_eq_balana_3.0': 300, 'oracle_3.0_eq_balana_1.0': 300, 'oracle_3.0_eq_balana_3.0': 300, 'decisions:NA': 290, 'decisions:P': 10}
+margrave__college-d {'compared': 300, 'balana_1.0_eq_balana_3.0': 300, 'oracle_3.0_eq_balana_1.0': 300, 'oracle_3.0_eq_balana_3.0': 300, 'decisions:NA': 282, 'decisions:P': 18}
+margrave__mg1-simple-policy {'compared': 300, 'balana_1.0_eq_balana_3.0': 300, 'oracle_3.0_eq_balana_1.0': 300, 'oracle_3.0_eq_balana_3.0': 300, 'decisions:NA': 280, 'decisions:P': 20}
+margrave__sun-cond-1 {'compared': 272, 'balana_1.0_eq_balana_3.0': 272, 'oracle_3.0_eq_balana_1.0': 272, 'oracle_3.0_eq_balana_3.0': 272, 'decisions:NA': 255, 'not_compared_multiple_resource_id': 28, 'decisions:IND': 17}
+27 benchmark policies; 8 translated; rejected: {'xpa__gpms': 'AttributeSelector (XPath)', 'margrave__generated': 'ordered-permit-overrides is not defined in XACML 1.0 (introduced in 1.1)'}
+xpa__HL7 52 19 | 36 26 23 / 36 | t 1.4 0.4 {'tests_semcov_full': 316, 'goals_semcov_full': 36, 'goals_full_minus_skip': 0, 'goals_skip_minus_full': 0, 'time_semcov_full': 1.7901663789998565}
+xpa__Simpson1 40 4 | 29 13 21.4 / 30 | t 0.3 0.0 {'tests_semcov_full': 72, 'goals_semcov_full': 29, 'goals_full_minus_skip': 0, 'goals_skip_minus_full': 0, 'time_semcov_full': 0.3137181790007162}
+xpa__Simpson2 72 4 | 43 15 29.2 / 43 | t 0.3 0.0 {'tests_semcov_full': 96, 'goals_semcov_full': 43, 'goals_full_minus_skip': 0, 'goals_skip_minus_full': 0, 'time_semcov_full': 0.3679007549981179}
+xpa__conference3-dup 16 15 | 27 12 18.4 / 28 | t 0.7 0.1 {'tests_semcov_full': 168, 'goals_semcov_full': 28, 'goals_full_minus_skip': 1, 'goals_skip_minus_full': 0, 'time_semcov_full': 1.1928997639988665}
+xpa__conference3-fa-wdeny 24 15 | 37 14 22 / 38 | t 0.4 0.2 {'tests_semcov_full': 172, 'goals_semcov_full': 38, 'goals_full_minus_skip': 1, 'goals_skip_minus_full': 0, 'time_semcov_full': 0.7186713079972833}
+xpa__conference3-pud 16 15 | 25 12 18.4 / 26 | t 0.8 0.2 {'tests_semcov_full': 168, 'goals_semcov_full': 26, 'goals_full_minus_skip': 1, 'goals_skip_minus_full': 0, 'time_semcov_full': 1.0355459569982486}
+xpa__conference3 16 15 | 30 12 18.4 / 31 | t 0.8 0.2 {'tests_semcov_full': 168, 'goals_semcov_full': 31, 'goals_full_minus_skip': 1, 'goals_skip_minus_full': 0, 'time_semcov_full': 1.2853820540003653}
+xpa__fedora-rule3-po 24 2 | 39 8 25.4 / 40 | t 0.2 0.0 {'tests_semcov_full': 56, 'goals_semcov_full': 40, 'goals_full_minus_skip': 1, 'goals_skip_minus_full': 0, 'time_semcov_full': 0.3544621169967286}
+xpa__fedora-rule3 72 12 | 61 17 36.8 / 62 | t 1.4 0.3 {'tests_semcov_full': 212, 'goals_semcov_full': 62, 'goals_full_minus_skip': 1, 'goals_skip_minus_full': 0, 'time_semcov_full': 2.270425899001566}
+xpa__itrust3-10 20 None | 32 None 12.2 / 32 | t 211.2 None {}
+xpa__itrust3-20 20 None | 32 None 12.2 / 32 | t 875.0 None {}
+xpa__itrust3-40 16 None | 31 None 11 / 32 | t 3525.1 None {}
+xpa__itrust3-5 20 320 | 32 11 13.2 / 32 | t 56.1 28.2 {}
+xpa__itrust3 20 64 | 32 11 13 / 32 | t 3.3 1.7 {'tests_semcov_full': 756, 'goals_semcov_full': 32, 'goals_full_minus_skip': 0, 'goals_skip_minus_full': 0, 'time_semcov_full': 8.939943749999657}
+xpa__kmarket-blue-policy 60 4 | 55 14 29.6 / 55 | t 0.4 0.0 {'tests_semcov_full': 104, 'goals_semcov_full': 55, 'goals_full_minus_skip': 0, 'goals_skip_minus_full': 0, 'time_semcov_full': 0.4091653260002204}
+xpa__kmarket-gold-policy 56 3 | 51 12 29.4 / 52 | t 0.2 0.1 {'tests_semcov_full': 88, 'goals_semcov_full': 51, 'goals_full_minus_skip': 0, 'goals_skip_minus_full': 0, 'time_semcov_full': 0.31502357800127356}
+xpa__kmarket-sliver-policy 52 5 | 51 13 28.4 / 52 | t 0.3 0.0 {'tests_semcov_full': 112, 'goals_semcov_full': 51, 'goals_full_minus_skip': 0, 'goals_skip_minus_full': 0, 'time_semcov_full': 0.43962265500158537}
+xpa__obligation3 28 2 | 34 4 22.8 / 39 | t 29.3 1.5 {'tests_semcov_full': 40, 'goals_semcov_full': 35, 'goals_full_minus_skip': 1, 'goals_skip_minus_full': 0, 'time_semcov_full': 41.228710932002286}
+xpa__pluto3 16 21 | 32 13 17.6 / 33 | t 4.1 1.6 {'tests_semcov_full': 260, 'goals_semcov_full': 34, 'goals_full_minus_skip': 2, 'goals_skip_minus_full': 0, 'time_semcov_full': 7.994273323001835}
+margrave__continue-a 20 298 | 33 22 19.2 / 33 | t 85.2 27.0 {}
+margrave__continue-b 20 306 | 34 23 19.2 / 34 | t 81.2 26.3 {}
+margrave__college-a 8 2 | 23 12 12.4 / 24 | t 0.4 0.1 {'tests_semcov_full': 84, 'goals_semcov_full': 24, 'goals_full_minus_skip': 1, 'goals_skip_minus_full': 0, 'time_semcov_full': 0.5220680460006406}
+margrave__college-b 8 3 | 23 12 15 / 24 | t 0.6 0.1 {'tests_semcov_full': 116, 'goals_semcov_full': 24, 'goals_full_minus_skip': 1, 'goals_skip_minus_full': 0, 'time_semcov_full': 1.0547235240010195}
+margrave__college-c 4 4 | 21 16 12.8 / 21 | t 1.0 0.1 {'tests_semcov_full': 144, 'goals_semcov_full': 24, 'goals_full_minus_skip': 3, 'goals_skip_minus_full': 0, 'time_semcov_full': 1.7059955340009765}
+margrave__college-d 4 5 | 21 16 11 / 21 | t 1.5 0.1 {'tests_semcov_full': 188, 'goals_semcov_full': 24, 'goals_full_minus_skip': 3, 'goals_skip_minus_full': 0, 'time_semcov_full': 1.5741319970002223}
+margrave__mg1-simple-policy 12 2 | 23 11 13 / 24 | t 0.2 0.0 {'tests_semcov_full': 52, 'goals_semcov_full': 24, 'goals_full_minus_skip': 1, 'goals_skip_minus_full': 0, 'time_semcov_full': 0.46791904299971065}
+margrave__sun-cond-1 20 1 | 27 5 13.6 / 28 | t 0.1 0.0 {'tests_semcov_full': 32, 'goals_semcov_full': 27, 'goals_full_minus_skip': 0, 'goals_skip_minus_full': 0, 'time_semcov_full': 0.10274700099762413}
+balana semcov 736 {'discrepancy': 61, 'B3': 6, 'B1': 44, 'B4': 11} {'B3': 1, 'B1': 4, 'B4': 4}
+openaz semcov 736 {'discrepancy': 72, 'O8': 24, 'O3': 31, 'O1': 8, 'O2': 15} {'O8': 1, 'O3': 10, 'O1': 5, 'O2': 4}
+balana rulecov 1141 {} {}
+openaz rulecov 1141 {'discrepancy': 6, 'O8': 4, 'O1': 2} {'O8': 1, 'O1': 1}
+balana random 736 {'discrepancy': 5, 'B3': 5} {'B3': 1}
+openaz random 736 {'discrepancy': 86, 'O8': 1, 'O3': 1, 'O1': 84} {'O8': 1, 'O3': 1, 'O1': 5}
+balana semcov 736 {'model_matches': 736, 'discrepancy': 61, 'B3': 6, 'B1': 44, 'B4': 11}
+    policies per defect: {'B3': 1, 'B1': 4, 'B4': 4}
+openaz semcov 736 {'model_matches': 736, 'discrepancy': 72, 'O8': 24, 'O3': 31, 'O1': 8, 'O2': 15}
+    policies per defect: {'O8': 1, 'O3': 10, 'O1': 5, 'O2': 4}
+balana rulecov 1141 {'model_matches': 1141}
+    policies per defect: {}
+openaz rulecov 1141 {'model_matches': 1141, 'discrepancy': 6, 'O8': 4, 'O1': 2}
+    policies per defect: {'O8': 1, 'O1': 1}
+balana random 736 {'model_matches': 736, 'discrepancy': 5, 'B3': 5}
+    policies per defect: {'B3': 1}
+openaz random 736 {'model_matches': 736, 'discrepancy': 86, 'O8': 1, 'O3': 1, 'O1': 84}
+    policies per defect: {'O8': 1, 'O3': 1, 'O1': 5}

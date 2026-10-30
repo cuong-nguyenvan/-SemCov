@@ -1,0 +1,22 @@
+[20:14:33] stage 0: setup-check
+[20:14:33] stage 1: oracle-ct
+[20:14:34] stage 2: oracle-spec
+[20:14:34] stage 3: rq12
+[20:41:58] stage 4: saturation
+[21:41:07] stage 5: rq5
+[21:52:30] stage 6: ct-engines
+[21:52:33] stage 7: balana-suites
+  FAILED - see logs/7-balana-suites.log
+[22:01:00] stage 7: balana-suites
+[22:10:05] stage 8: openaz-suites
+[22:12:44] stage 9: attribution
+[22:28:21] stage 10: explain
+[22:40:37] stage 11: witnesses
+[22:43:01] stage 12: ablation
+[22:53:34] stage 13: permutation
+[22:53:40] stage 14: realpolicies
+[23:12:12] stage 15: propositions
+[23:12:12] stage 16: dtmut
+[23:15:59] stage 17: depth2
+[23:25:33] stage 18: tables
+[23:25:37] all stages done - tables and figures in results/paper/

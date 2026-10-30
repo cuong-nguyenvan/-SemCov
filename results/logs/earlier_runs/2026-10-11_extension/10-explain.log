@@ -1,0 +1,30 @@
+ours_s0 {'model_matches': 5096, 'discrepancy': 2052, 'B8': 304, 'B7': 23, 'B1': 1320, 'B4': 356, 'B3': 21, 'B2': 12, 'B3+B4': 6, 'B5+B6': 4, 'B5': 6}
+random_s0 {'model_matches': 5096, 'discrepancy': 57, 'B3': 13, 'B1': 25, 'B5': 11, 'B3+B5': 1, 'B4': 7}
+rulecov_s0 {'model_matches': 5096, 'discrepancy': 55, 'B5': 55}
+ours_s1 {'model_matches': 5096, 'discrepancy': 2062, 'B8': 288, 'B7': 23, 'B1': 1355, 'B4': 361, 'B3': 17, 'B2': 5, 'B3+B4': 3, 'B5+B6': 4, 'B5': 6}
+random_s1 {'model_matches': 5096, 'discrepancy': 127, 'B5': 87, 'B7': 5, 'B4': 7, 'B3': 12, 'B3+B5': 1, 'B1': 14, 'B6': 1}
+rulecov_s1 {'model_matches': 5096, 'discrepancy': 61, 'B5': 61}
+ours_s2 {'model_matches': 5096, 'discrepancy': 2064, 'B8': 296, 'B7': 23, 'B1': 1345, 'B4': 366, 'B3': 17, 'B2': 8, 'B3+B4': 3, 'B5': 6}
+random_s2 {'model_matches': 5096, 'discrepancy': 78, 'B4': 13, 'B1': 19, 'B3': 14, 'B7': 8, 'B5': 19, 'B5+B6': 1, 'B3+B5': 2, 'B6': 2}
+rulecov_s2 {'model_matches': 5096, 'discrepancy': 51, 'B5': 51}
+ours_s3 {'model_matches': 5096, 'discrepancy': 2061, 'B8': 288, 'B7': 23, 'B1': 1354, 'B4': 355, 'B3': 16, 'B2': 9, 'B3+B4': 5, 'B5+B6': 5, 'B5': 6}
+random_s3 {'model_matches': 5096, 'discrepancy': 48, 'B7': 2, 'B3': 18, 'B1': 14, 'B5': 9, 'B4': 5}
+rulecov_s3 {'model_matches': 5096, 'discrepancy': 63, 'B5': 63}
+ours_s4 {'model_matches': 5096, 'discrepancy': 2104, 'B8': 312, 'B7': 23, 'B1': 1377, 'B4': 353, 'B3': 20, 'B2': 9, 'B3+B4': 4, 'B5': 6}
+random_s4 {'model_matches': 5096, 'discrepancy': 108, 'B1': 23, 'B5': 56, 'B4': 13, 'B3': 8, 'B6': 2, 'B7': 4, 'B5+B6': 2}
+rulecov_s4 {'model_matches': 5096, 'discrepancy': 77, 'B5': 77}
+ours_s0 {'model_matches': 5096, 'discrepancy': 989, 'O3': 82, 'O1': 15, 'O5': 304, 'O2': 580, 'O6': 6, 'O3+O6': 2}
+random_s0 {'model_matches': 5096, 'discrepancy': 1731, 'O1': 1681, 'O2': 13, 'O3': 30, 'O3+O6': 3, 'O6': 4}
+rulecov_s0 {'model_matches': 5096}
+ours_s1 {'model_matches': 5096, 'discrepancy': 993, 'O3': 94, 'O1': 15, 'O5': 292, 'O2': 584, 'O6': 6, 'O3+O6': 2}
+random_s1 {'model_matches': 5096, 'discrepancy': 1640, 'O1': 1589, 'O3': 25, 'O2': 16, 'O6': 7, 'O3+O6': 3}
+rulecov_s1 {'model_matches': 5096}
+ours_s2 {'model_matches': 5096, 'discrepancy': 993, 'O3': 89, 'O1': 15, 'O5': 308, 'O2': 581}
+random_s2 {'model_matches': 5096, 'discrepancy': 1654, 'O1': 1596, 'O3': 20, 'O6': 14, 'O2': 23, 'O3+O6': 1}
+rulecov_s2 {'model_matches': 5096}
+ours_s3 {'model_matches': 5096, 'discrepancy': 984, 'O3': 95, 'O1': 15, 'O5': 300, 'O2': 570, 'O6': 3, 'O3+O6': 1}
+random_s3 {'model_matches': 5096, 'discrepancy': 1636, 'O1': 1579, 'O2': 12, 'O3': 31, 'O6': 13, 'O3+O6': 1}
+rulecov_s3 {'model_matches': 5096}
+ours_s4 {'model_matches': 5096, 'discrepancy': 1005, 'O3': 76, 'O1': 15, 'O5': 328, 'O2': 586}
+random_s4 {'model_matches': 5096, 'discrepancy': 1537, 'O1': 1456, 'O3+O6': 6, 'O3': 45, 'O6': 8, 'O2': 22}
+rulecov_s4 {'model_matches': 5096}

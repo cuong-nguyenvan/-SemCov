@@ -1,0 +1,12 @@
+balana ours 2456 {'model_matches': 2364, 'discrepancy': 224, 'B4': 27, 'B1': 104, 'load: Unknown FunctionId': 64, 'B7': 1, 'load: Error parsing required attribute RuleId': 28}
+    policies per defect: {'B4': 10, 'B1': 10, 'load: Unknown FunctionId': 1, 'B7': 1, 'load: Error parsing required attribute RuleId': 1}
+openaz ours 2456 {'model_matches': 2456, 'discrepancy': 279, 'O1': 138, 'O3': 28, 'O7': 90, 'O2': 53}
+    policies per defect: {'O1': 33, 'O3': 7, 'O7': 6, 'O2': 11}
+balana rulecov 131 {'model_matches': 127, 'discrepancy': 4, 'load: Unknown FunctionId': 3, 'load: Error parsing required attribute RuleId': 1}
+    policies per defect: {'load: Unknown FunctionId': 1, 'load: Error parsing required attribute RuleId': 1}
+openaz rulecov 131 {'model_matches': 131, 'discrepancy': 32, 'O1': 32, 'O7': 12}
+    policies per defect: {'O1': 11, 'O7': 6}
+balana random 2456 {'model_matches': 2364, 'discrepancy': 96, 'load: Unknown FunctionId': 64, 'B7': 4, 'load: Error parsing required attribute RuleId': 28}
+    policies per defect: {'load: Unknown FunctionId': 1, 'B7': 1, 'load: Error parsing required attribute RuleId': 1}
+openaz random 2456 {'model_matches': 2456, 'discrepancy': 790, 'O1': 786, 'O7': 132, 'O2': 4}
+    policies per defect: {'O1': 33, 'O7': 6, 'O2': 1}

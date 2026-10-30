@@ -1,0 +1,27 @@
+[11:44:53] stage 0: setup-check
+[11:44:53] stage 1: oracle-ct
+[11:44:53] stage 2: oracle-spec
+[11:44:54] stage 3: coverage-mutants
+[12:24:28] stage 4: saturation
+[13:50:57] stage 5: generation-cost
+[14:08:52] stage 6: ct-engines
+[14:08:57] stage 7: balana-suites
+[14:21:40] stage 8: openaz-suites
+[14:25:47] stage 9: attribution
+[14:47:27] stage 10: explain
+[15:04:31] stage 11: witnesses
+[15:06:44] stage 12: ablation
+[15:24:57] stage 13: permutation
+[15:25:06] stage 14: realpolicies
+[15:31:46] stage 15: propositions
+[15:31:46] stage 16: dtmut
+[15:37:16] stage 17: depth2
+[15:54:21] stage 18: authzforce
+[15:54:21] stage 19: differential
+[16:34:33] stage 20: benchmarks
+[18:03:31] stage 21: tables
+[18:03:40] all stages done - tables and figures in results/paper/
+[18:04:32] stage 5: generation-cost
+[18:23:46] all stages done - tables and figures in results/paper/
+[18:23:46] stage 21: tables
+[18:23:50] all stages done - tables and figures in results/paper/

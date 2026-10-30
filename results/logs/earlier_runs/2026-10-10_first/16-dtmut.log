@@ -1,0 +1,7 @@
+mutants 3202 Counter({'comb-policy': 2030, 'comb-rule': 1010, 'rule': 60, 'tmap': 60, 'tgt': 42})
+CT 0.11992504684572143
+0 {'ours': 1.0, 'random': 0.4653, 'rulecov': 0.213}
+1 {'ours': 1.0, 'random': 0.4756, 'rulecov': 0.2046}
+2 {'ours': 1.0, 'random': 0.4347, 'rulecov': 0.2055}
+3 {'ours': 1.0, 'random': 0.461, 'rulecov': 0.2183}
+4 {'ours': 1.0, 'random': 0.4557, 'rulecov': 0.2064}

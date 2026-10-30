@@ -1,0 +1,30 @@
+{
+ "deny-overrides": {
+  "vectors": 9331,
+  "mismatches": 0
+ },
+ "permit-overrides": {
+  "vectors": 9331,
+  "mismatches": 0
+ },
+ "deny-unless-permit": {
+  "vectors": 9331,
+  "mismatches": 0
+ },
+ "permit-unless-deny": {
+  "vectors": 9331,
+  "mismatches": 0
+ },
+ "first-applicable": {
+  "vectors": 9331,
+  "mismatches": 0
+ },
+ "table5-target-indeterminate": {
+  "vectors": 6,
+  "mismatches": 0
+ },
+ "table4-rule": {
+  "vectors": 6,
+  "mismatches": 0
+ }
+}
