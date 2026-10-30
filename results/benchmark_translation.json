@@ -1,0 +1,485 @@
+{
+ "requests_per_policy": 300,
+ "policies": {
+  "margrave__continue-a": {
+   "compared": 300,
+   "balana_1.0_eq_balana_3.0": 300,
+   "oracle_3.0_eq_balana_1.0": 300,
+   "oracle_3.0_eq_balana_3.0": 300,
+   "decisions:NA": 128,
+   "decisions:D": 149,
+   "decisions:P": 23
+  },
+  "margrave__continue-b": {
+   "compared": 300,
+   "balana_1.0_eq_balana_3.0": 300,
+   "oracle_3.0_eq_balana_1.0": 300,
+   "oracle_3.0_eq_balana_3.0": 300,
+   "decisions:NA": 128,
+   "decisions:D": 149,
+   "decisions:P": 23
+  },
+  "margrave__college-a": {
+   "compared": 300,
+   "balana_1.0_eq_balana_3.0": 300,
+   "oracle_3.0_eq_balana_1.0": 300,
+   "oracle_3.0_eq_balana_3.0": 300,
+   "decisions:NA": 280,
+   "decisions:P": 20
+  },
+  "margrave__college-b": {
+   "compared": 300,
+   "balana_1.0_eq_balana_3.0": 300,
+   "oracle_3.0_eq_balana_1.0": 300,
+   "oracle_3.0_eq_balana_3.0": 300,
+   "decisions:NA": 285,
+   "decisions:P": 15
+  },
+  "margrave__college-c": {
+   "compared": 300,
+   "balana_1.0_eq_balana_3.0": 300,
+   "oracle_3.0_eq_balana_1.0": 300,
+   "oracle_3.0_eq_balana_3.0": 300,
+   "decisions:NA": 290,
+   "decisions:P": 10
+  },
+  "margrave__college-d": {
+   "compared": 300,
+   "balana_1.0_eq_balana_3.0": 300,
+   "oracle_3.0_eq_balana_1.0": 300,
+   "oracle_3.0_eq_balana_3.0": 300,
+   "decisions:NA": 282,
+   "decisions:P": 18
+  },
+  "margrave__mg1-simple-policy": {
+   "compared": 300,
+   "balana_1.0_eq_balana_3.0": 300,
+   "oracle_3.0_eq_balana_1.0": 300,
+   "oracle_3.0_eq_balana_3.0": 300,
+   "decisions:NA": 280,
+   "decisions:P": 20
+  },
+  "margrave__sun-cond-1": {
+   "compared": 272,
+   "balana_1.0_eq_balana_3.0": 272,
+   "oracle_3.0_eq_balana_1.0": 272,
+   "oracle_3.0_eq_balana_3.0": 272,
+   "decisions:NA": 255,
+   "not_compared_multiple_resource_id": 28,
+   "decisions:IND": 17
+  }
+ },
+ "disagreements": {},
+ "index": [
+  {
+   "name": "xpa__HL7",
+   "family": "XPA",
+   "source_version": "3.0",
+   "path": "xpa/Experiments/HL7/HL7.xml",
+   "refs_inlined": 0,
+   "obligations_dropped": 0,
+   "schema_valid": true,
+   "rules": 19,
+   "nodes": 11,
+   "depth": 2,
+   "algs": [
+    "DO",
+    "FA"
+   ]
+  },
+  {
+   "name": "xpa__Simpson1",
+   "family": "XPA",
+   "source_version": "3.0",
+   "path": "xpa/Experiments/Simpson1/Simpson1.xml",
+   "refs_inlined": 0,
+   "obligations_dropped": 0,
+   "schema_valid": true,
+   "rules": 4,
+   "nodes": 1,
+   "depth": 0,
+   "algs": [
+    "PUD"
+   ]
+  },
+  {
+   "name": "xpa__Simpson2",
+   "family": "XPA",
+   "source_version": "3.0",
+   "path": "xpa/Experiments/Simpson2/Simpson2.xml",
+   "refs_inlined": 0,
+   "obligations_dropped": 0,
+   "schema_valid": true,
+   "rules": 4,
+   "nodes": 1,
+   "depth": 0,
+   "algs": [
+    "DUP"
+   ]
+  },
+  {
+   "name": "xpa__conference3-dup",
+   "family": "XPA",
+   "source_version": "3.0",
+   "path": "xpa/Experiments/conference3-dup/conference3-dup.xml",
+   "refs_inlined": 0,
+   "obligations_dropped": 0,
+   "schema_valid": true,
+   "rules": 15,
+   "nodes": 1,
+   "depth": 0,
+   "algs": [
+    "DUP"
+   ]
+  },
+  {
+   "name": "xpa__conference3-fa-wdeny",
+   "family": "XPA",
+   "source_version": "3.0",
+   "path": "xpa/Experiments/conference3-fa-wdeny/conference3-fa-wdeny.xml",
+   "refs_inlined": 0,
+   "obligations_dropped": 0,
+   "schema_valid": true,
+   "rules": 15,
+   "nodes": 1,
+   "depth": 0,
+   "algs": [
+    "FA"
+   ]
+  },
+  {
+   "name": "xpa__conference3-pud",
+   "family": "XPA",
+   "source_version": "3.0",
+   "path": "xpa/Experiments/conference3-pud/conference3-pud.xml",
+   "refs_inlined": 0,
+   "obligations_dropped": 0,
+   "schema_valid": true,
+   "rules": 15,
+   "nodes": 1,
+   "depth": 0,
+   "algs": [
+    "PUD"
+   ]
+  },
+  {
+   "name": "xpa__conference3",
+   "family": "XPA",
+   "source_version": "3.0",
+   "path": "xpa/Experiments/conference3/conference3.xml",
+   "refs_inlined": 0,
+   "obligations_dropped": 0,
+   "schema_valid": true,
+   "rules": 15,
+   "nodes": 1,
+   "depth": 0,
+   "algs": [
+    "PO"
+   ]
+  },
+  {
+   "name": "xpa__fedora-rule3-po",
+   "family": "XPA",
+   "source_version": "3.0",
+   "path": "xpa/Experiments/fedora-rule3-po/fedora-rule3-po.xml",
+   "refs_inlined": 0,
+   "obligations_dropped": 0,
+   "schema_valid": true,
+   "rules": 2,
+   "nodes": 1,
+   "depth": 0,
+   "algs": [
+    "PO"
+   ]
+  },
+  {
+   "name": "xpa__fedora-rule3",
+   "family": "XPA",
+   "source_version": "3.0",
+   "path": "xpa/Experiments/fedora-rule3/fedora-rule3.xml",
+   "refs_inlined": 0,
+   "obligations_dropped": 0,
+   "schema_valid": true,
+   "rules": 12,
+   "nodes": 1,
+   "depth": 0,
+   "algs": [
+    "DO"
+   ]
+  },
+  {
+   "name": "xpa__itrust3-10",
+   "family": "XPA",
+   "source_version": "3.0",
+   "path": "xpa/Experiments/itrust3-10/itrust3-10.xml",
+   "refs_inlined": 0,
+   "obligations_dropped": 0,
+   "schema_valid": true,
+   "rules": 640,
+   "nodes": 1,
+   "depth": 0,
+   "algs": [
+    "FA"
+   ]
+  },
+  {
+   "name": "xpa__itrust3-20",
+   "family": "XPA",
+   "source_version": "3.0",
+   "path": "xpa/Experiments/itrust3-20/itrust3-20.xml",
+   "refs_inlined": 0,
+   "obligations_dropped": 0,
+   "schema_valid": true,
+   "rules": 1280,
+   "nodes": 1,
+   "depth": 0,
+   "algs": [
+    "FA"
+   ]
+  },
+  {
+   "name": "xpa__itrust3-40",
+   "family": "XPA",
+   "source_version": "3.0",
+   "path": "xpa/Experiments/itrust3-40/itrust3-40.xml",
+   "refs_inlined": 0,
+   "obligations_dropped": 0,
+   "schema_valid": true,
+   "rules": 2560,
+   "nodes": 1,
+   "depth": 0,
+   "algs": [
+    "FA"
+   ]
+  },
+  {
+   "name": "xpa__itrust3-5",
+   "family": "XPA",
+   "source_version": "3.0",
+   "path": "xpa/Experiments/itrust3-5/itrust3-5.xml",
+   "refs_inlined": 0,
+   "obligations_dropped": 0,
+   "schema_valid": true,
+   "rules": 320,
+   "nodes": 1,
+   "depth": 0,
+   "algs": [
+    "FA"
+   ]
+  },
+  {
+   "name": "xpa__itrust3",
+   "family": "XPA",
+   "source_version": "3.0",
+   "path": "xpa/Experiments/itrust3/itrust3.xml",
+   "refs_inlined": 0,
+   "obligations_dropped": 0,
+   "schema_valid": true,
+   "rules": 64,
+   "nodes": 1,
+   "depth": 0,
+   "algs": [
+    "FA"
+   ]
+  },
+  {
+   "name": "xpa__kmarket-blue-policy",
+   "family": "XPA",
+   "source_version": "3.0",
+   "path": "xpa/Experiments/kmarket-blue-policy/kmarket-blue-policy.xml",
+   "refs_inlined": 0,
+   "obligations_dropped": 0,
+   "schema_valid": true,
+   "rules": 4,
+   "nodes": 1,
+   "depth": 0,
+   "algs": [
+    "DO"
+   ]
+  },
+  {
+   "name": "xpa__kmarket-gold-policy",
+   "family": "XPA",
+   "source_version": "3.0",
+   "path": "xpa/Experiments/kmarket-gold-policy/kmarket-gold-policy.xml",
+   "refs_inlined": 0,
+   "obligations_dropped": 0,
+   "schema_valid": true,
+   "rules": 3,
+   "nodes": 1,
+   "depth": 0,
+   "algs": [
+    "DO"
+   ]
+  },
+  {
+   "name": "xpa__kmarket-sliver-policy",
+   "family": "XPA",
+   "source_version": "3.0",
+   "path": "xpa/Experiments/kmarket-sliver-policy/kmarket-sliver-policy.xml",
+   "refs_inlined": 0,
+   "obligations_dropped": 0,
+   "schema_valid": true,
+   "rules": 5,
+   "nodes": 1,
+   "depth": 0,
+   "algs": [
+    "DO"
+   ]
+  },
+  {
+   "name": "xpa__obligation3",
+   "family": "XPA",
+   "source_version": "3.0",
+   "path": "xpa/Experiments/obligation3/obligation3.xml",
+   "refs_inlined": 0,
+   "obligations_dropped": 0,
+   "schema_valid": true,
+   "rules": 2,
+   "nodes": 1,
+   "depth": 0,
+   "algs": [
+    "PO"
+   ]
+  },
+  {
+   "name": "xpa__pluto3",
+   "family": "XPA",
+   "source_version": "3.0",
+   "path": "xpa/Experiments/pluto3/pluto3.xml",
+   "refs_inlined": 0,
+   "obligations_dropped": 0,
+   "schema_valid": true,
+   "rules": 21,
+   "nodes": 1,
+   "depth": 0,
+   "algs": [
+    "PO"
+   ]
+  },
+  {
+   "name": "margrave__continue-a",
+   "family": "Margrave/CONTINUE",
+   "source_version": "1.0",
+   "path": "margrave/margrave/tests/xacml/continue/CodeA/RPSlist.xml",
+   "refs_inlined": 85,
+   "obligations_dropped": 0,
+   "schema_valid": true,
+   "rules": 298,
+   "nodes": 377,
+   "depth": 7,
+   "algs": [
+    "FA"
+   ]
+  },
+  {
+   "name": "margrave__continue-b",
+   "family": "Margrave/CONTINUE",
+   "source_version": "1.0",
+   "path": "margrave/margrave/tests/xacml/continue/CodeB/RPSlist.xml",
+   "refs_inlined": 85,
+   "obligations_dropped": 0,
+   "schema_valid": true,
+   "rules": 306,
+   "nodes": 377,
+   "depth": 7,
+   "algs": [
+    "FA"
+   ]
+  },
+  {
+   "name": "margrave__college-a",
+   "family": "Margrave/college",
+   "source_version": "1.0",
+   "path": "margrave/margrave/tests/xacml/college/CodeA/RPSlist.xml",
+   "refs_inlined": 4,
+   "obligations_dropped": 0,
+   "schema_valid": true,
+   "rules": 2,
+   "nodes": 7,
+   "depth": 3,
+   "algs": [
+    "PO"
+   ]
+  },
+  {
+   "name": "margrave__college-b",
+   "family": "Margrave/college",
+   "source_version": "1.0",
+   "path": "margrave/margrave/tests/xacml/college/CodeB/RPSlist.xml",
+   "refs_inlined": 6,
+   "obligations_dropped": 0,
+   "schema_valid": true,
+   "rules": 3,
+   "nodes": 10,
+   "depth": 3,
+   "algs": [
+    "PO"
+   ]
+  },
+  {
+   "name": "margrave__college-c",
+   "family": "Margrave/college",
+   "source_version": "1.0",
+   "path": "margrave/margrave/tests/xacml/college/CodeC/RPSlist.xml",
+   "refs_inlined": 7,
+   "obligations_dropped": 0,
+   "schema_valid": true,
+   "rules": 4,
+   "nodes": 12,
+   "depth": 4,
+   "algs": [
+    "PO"
+   ]
+  },
+  {
+   "name": "margrave__college-d",
+   "family": "Margrave/college",
+   "source_version": "1.0",
+   "path": "margrave/margrave/tests/xacml/college/CodeD/RPSlist.xml",
+   "refs_inlined": 10,
+   "obligations_dropped": 0,
+   "schema_valid": true,
+   "rules": 5,
+   "nodes": 16,
+   "depth": 4,
+   "algs": [
+    "PO"
+   ]
+  },
+  {
+   "name": "margrave__mg1-simple-policy",
+   "family": "Margrave/examples",
+   "source_version": "1.0",
+   "path": "margrave/margrave/tests/xacml/mg1-simple-policy.xml",
+   "refs_inlined": 0,
+   "obligations_dropped": 0,
+   "schema_valid": true,
+   "rules": 2,
+   "nodes": 3,
+   "depth": 1,
+   "algs": [
+    "PO"
+   ]
+  },
+  {
+   "name": "margrave__sun-cond-1",
+   "family": "Margrave/examples",
+   "source_version": "1.0",
+   "path": "margrave/margrave/tests/xacml/sun-cond-1.xml",
+   "refs_inlined": 0,
+   "obligations_dropped": 0,
+   "schema_valid": true,
+   "rules": 1,
+   "nodes": 1,
+   "depth": 0,
+   "algs": [
+    "PO"
+   ]
+  }
+ ],
+ "rejected": {
+  "xpa__gpms": "AttributeSelector (XPath)",
+  "margrave__generated": "ordered-permit-overrides is not defined in XACML 1.0 (introduced in 1.1)"
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "0": {
+  "definite": 108,
+  "ambiguous": 8
+ },
+ "1": {
+  "definite": 108,
+  "ambiguous": 10
+ },
+ "2": {
+  "definite": 110,
+  "ambiguous": 6
+ },
+ "3": {
+  "definite": 113,
+  "ambiguous": 10
+ },
+ "4": {
+  "definite": 109,
+  "ambiguous": 12
+ }
+}
